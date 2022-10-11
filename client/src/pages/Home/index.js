@@ -112,7 +112,7 @@ class Home extends Component {
                     </Col>
                 </Row>
                 <Row>
-                    <Col style={{ paddingTop: '20px', paddingBottom: '40px' }}>
+                    <Col style={{ paddingTop: '20px', paddingBottom: '40px', backgroundColor: 'white' }}>
                         <Container style={{ color: 'black' }}>
                             <Row>
                                 <Col>
@@ -174,7 +174,7 @@ class Home extends Component {
                 </Row>
                 <Row style={{ slide, backgroundImage: "url('" + process.env.PUBLIC_URL + "/home/home-token-bg.png')" }}>
                     <Col style={{ paddingTop: '20px', paddingBottom: '40px' }}>
-                        <Container>
+                        <Container id='tokenMove'>
                             <Row>
                                 <Col>
                                     <img src={process.env.PUBLIC_URL + "/home/home-token-banner.png"} width='100px' />
@@ -219,7 +219,7 @@ class Home extends Component {
                     </Col>
                 </Row>
                 <Row>
-                    <Col style={{ paddingTop: '20px', paddingBottom: '40px' }}>
+                    <Col style={{ paddingTop: '20px', paddingBottom: '40px', backgroundColor: 'white' }}>
                         <Container style={{ color: 'black' }}>
                             <Row>
                                 <Col>

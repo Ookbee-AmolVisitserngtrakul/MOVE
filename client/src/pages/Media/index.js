@@ -1,4 +1,4 @@
-import { Component } from "react";
+import { React, Component } from "react";
 import { useParams } from "react-router-dom";
 import '../../App.css';
 import Screen from '../../components/Screen'

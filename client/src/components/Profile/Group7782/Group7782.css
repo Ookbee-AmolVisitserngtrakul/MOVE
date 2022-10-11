@@ -1,0 +1,96 @@
+.group-7782 {
+  align-items: center;
+  display: flex;
+  gap: 25px;
+  margin-left: 32.0px;
+  min-width: 1114px;
+}
+
+.place-1 {
+  letter-spacing: 0;
+  min-height: 24px;
+  min-width: 38px;
+}
+
+.overlap-group-3 {
+  height: 44px;
+  position: relative;
+  width: 1041px;
+}
+
+.rectangle-2024 {
+  background-color: var(--martinique);
+  border: 1px none;
+  border-radius: 32px;
+  height: 40px;
+  left: 0;
+  opacity: 0.5;
+  position: absolute;
+  top: 2px;
+  width: 222px;
+}
+
+.rectangle-2025 {
+  background-color: var(--black-rock);
+  border: 1px none;
+  border-radius: 32px;
+  height: 44px;
+  left: 544px;
+  position: absolute;
+  top: 0;
+  width: 116px;
+}
+
+.date-3 {
+  left: 36px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 10px;
+  width: 466px;
+}
+
+.rectangle-2349 {
+  background-color: var(--martinique);
+  border: 1px none;
+  border-radius: 32px;
+  height: 40px;
+  left: 298px;
+  opacity: 0.5;
+  position: absolute;
+  top: 2px;
+  width: 222px;
+}
+
+.search {
+  left: 575px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 10px;
+  width: 466px;
+}
+
+.to {
+  left: 255px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 10px;
+}
+
+.date-4 {
+  left: 324px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 10px;
+  width: 466px;
+}
+
+.group-7782.group-7782-4 {
+  margin-left: unset;
+  margin-right: 36.29px;
+}
+
+.group-7782.group-7782-8 {
+  margin-left: unset;
+  margin-right: 47.67px;
+}
+

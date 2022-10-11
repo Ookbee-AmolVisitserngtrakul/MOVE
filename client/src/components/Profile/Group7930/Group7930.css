@@ -1,0 +1,67 @@
+.group-7930 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  left: 93px;
+  min-height: 130px;
+  position: absolute;
+  top: 1916px;
+  width: 345px;
+}
+
+.overlap-group-28 {
+  align-items: center;
+  background: linear-gradient(180deg, rgb(249, 0, 192) 0%, rgb(62, 1, 255) 100%);
+  border-radius: 8px;
+  display: flex;
+  height: 56px;
+  min-width: 343px;
+  padding: 0 46px;
+}
+
+.upload-media-1 {
+  letter-spacing: 0;
+  min-height: 24px;
+  text-align: center;
+  width: 246px;
+}
+
+.overlap-group5-1 {
+  border-radius: 8px;
+  height: 60px;
+  position: relative;
+  width: 343px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(249, 0, 192);
+}
+
+.cancle {
+  left: 46px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 16px;
+  width: 246px;
+}
+
+.group-7919 {
+  border-radius: 8px;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 343px;
+}
+
+.group-7930.group-7989 {
+  left: 18px;
+  top: 605px;
+}
+
+.group-7930.group-7990 {
+  left: 18px;
+  top: 1250px;
+}
+

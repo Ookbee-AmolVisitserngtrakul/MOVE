@@ -1,0 +1,26 @@
+.group-794-1 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 39px;
+  display: flex;
+  height: 32px;
+  left: 0;
+  min-width: 101px;
+  padding: 0 4px;
+  position: absolute;
+  top: 0;
+}
+
+.group-7942-1 {
+  background-color: var(--chateau-green);
+  border-radius: 13px;
+  height: 26px;
+  width: 26px;
+}
+
+.group-794-1.group-794-2 .group-7942-1,
+.group-794-1.group-7946 .group-7942-1,
+.group-794-1.group-794 .group-7942-1 {
+  background-color: var(--yellow-sea);
+}
+

@@ -1,0 +1,166 @@
+.release-to-marketplace-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  gap: 347px;
+  height: 812px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.overlap-group3-5 {
+  height: 830px;
+  margin-top: -18px;
+  position: relative;
+  width: 659px;
+}
+
+.rectangle-2411 {
+  background-color: var(--dove-gray);
+  border: 1px none;
+  height: 812px;
+  left: 0;
+  position: absolute;
+  top: 18px;
+  width: 100%;
+}
+
+.frame-7841 {
+  align-items: flex-end;
+  border: 1px none;
+  display: flex;
+  height: 431px;
+  justify-content: flex-end;
+  left: 75px;
+  min-width: 225px;
+  position: absolute;
+  top: 0;
+}
+
+.overlap-group1-8 {
+  align-items: flex-start;
+  background-color: var(--black);
+  display: flex;
+  height: 414px;
+  margin-bottom: -86.0px;
+  min-width: 340px;
+  padding: 30.0px 60px;
+}
+
+.remove-from-marketplace {
+  letter-spacing: 0;
+  min-height: 24px;
+}
+
+.date-to-sell {
+  left: 47px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 220px;
+  width: 357px;
+}
+
+.period {
+  left: 47px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 251px;
+  width: 357px;
+}
+
+.total-price {
+  left: 47px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 287px;
+  width: 357px;
+}
+
+.price-2 {
+  left: 259px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 287px;
+  width: 357px;
+}
+
+.location {
+  left: 47px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 189px;
+  width: 357px;
+}
+
+.show-dc {
+  left: 273px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 189px;
+  width: 357px;
+}
+
+.name {
+  left: 174px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 220px;
+  width: 357px;
+}
+
+.number-15 {
+  left: 280px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 251px;
+  width: 357px;
+}
+
+.surname {
+  left: 302px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 251px;
+  width: 357px;
+}
+
+.overlap-group2-6 {
+  align-items: center;
+  background: linear-gradient(180deg, rgb(249, 0, 192) 0%, rgb(62, 1, 255) 100%);
+  border-radius: 8px;
+  display: flex;
+  height: 56px;
+  left: 47px;
+  min-width: 279px;
+  padding: 0 37.4px;
+  position: absolute;
+  top: 350px;
+}
+
+.confirm {
+  letter-spacing: 0;
+  min-height: 24px;
+  text-align: center;
+  width: 200px;
+}
+
+.cancle-1 {
+  left: 72px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 439px;
+  width: 232px;
+}
+
+.group-7912-1 {
+  border-radius: 8px;
+  height: 56px;
+  left: 47px;
+  position: absolute;
+  top: 424px;
+  width: 279px;
+}
+

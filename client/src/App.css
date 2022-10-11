@@ -174,3 +174,56 @@ color: #ff606e;
 .valid-feedback{
 color: #2acc80;
 }
+
+.fullscreen 
+{
+    padding:0 0;
+    margin:0 0;
+    position: relative;
+    border: none;
+    transform-origin: 1px 1px;
+}
+
+.fullscreen > div
+{
+    padding: 0 0;
+    margin: 0 0;
+    position: absolute;
+    border-style: dotted;
+    border-color: rgba(red, green, blue, 0.5);
+}
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700,300,500,600,100");
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/633d34355c66332c5c303cd8.633d34377fe8e743e734b398.80VEGid.rcp.png");
+
+@font-face {
+  font-family: "SF Pro-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../public/fonts/SF-Pro.ttf") format("truetype");
+}
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+}

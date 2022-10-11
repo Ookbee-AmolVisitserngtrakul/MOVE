@@ -1,0 +1,160 @@
+.group-7802 {
+  align-items: flex-start;
+  background-color: var(--steel-gray);
+  border: 1px none;
+  display: flex;
+  height: 312px;
+  left: 77px;
+  min-width: 100%;
+  padding: 27px 16px;
+  position: absolute;
+  top: 2120px;
+}
+
+.flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 225px;
+  width: 127px;
+}
+
+.services,
+.about-spv,
+.developers {
+  letter-spacing: 0;
+  min-height: 18px;
+}
+
+.media-booking,
+.whitepaper {
+  letter-spacing: 0;
+  margin-top: 8px;
+  min-height: 18px;
+}
+
+.marketplace {
+  letter-spacing: 0;
+  margin-top: 9px;
+  min-height: 18px;
+}
+
+.place-13 {
+  letter-spacing: 0;
+  margin-top: 35px;
+  min-height: 18px;
+}
+
+.group-6891 {
+  align-items: center;
+  display: flex;
+  gap: 7px;
+  height: 18px;
+  margin-top: 13px;
+  min-width: 103px;
+}
+
+.phone {
+  height: 13px;
+  margin-bottom: 1.0px;
+  width: 13px;
+}
+
+.phone-1 {
+  letter-spacing: 0;
+  min-height: 18px;
+  min-width: 81px;
+}
+
+.mail-container {
+  align-items: center;
+  display: flex;
+  gap: 7px;
+  height: 18px;
+  margin-top: 5px;
+  min-width: 127px;
+}
+
+.mail_outline {
+  height: 13px;
+  margin-top: 1.0px;
+  width: 13px;
+}
+
+.adminmailcom {
+  letter-spacing: 0;
+  min-height: 18px;
+  min-width: 107px;
+}
+
+.group-7692 {
+  height: 12px;
+  margin-left: 1px;
+  margin-top: 35px;
+  width: 62px;
+}
+
+.flex-col-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 6px;
+  min-height: 92px;
+  width: 100px;
+}
+
+.flex-col-item-1 {
+  letter-spacing: 0;
+  margin-top: 7px;
+  min-height: 18px;
+}
+
+.investors,
+.github {
+  letter-spacing: 0;
+  margin-top: 6px;
+  min-height: 18px;
+}
+
+.flex-col-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 27px;
+  min-height: 68px;
+  width: 70px;
+}
+
+.group-7802.group-7802-1 {
+  left: 0;
+  top: 1509px;
+}
+
+.group-7802.group-7802-2 {
+  left: 0;
+  top: 1333px;
+}
+
+.group-7802.group-7802-3 {
+  left: 11px;
+  top: 1329px;
+}
+
+.group-7802.group-7802-4 {
+  left: 0;
+  top: 1204px;
+}
+
+.group-7802.group-7802-5 {
+  top: 828px;
+}
+
+.group-7802.group-7802-6 {
+  top: 827px;
+}
+
+.group-7802.group-7802-7 {
+  left: 0;
+  top: 1422px;
+}
+

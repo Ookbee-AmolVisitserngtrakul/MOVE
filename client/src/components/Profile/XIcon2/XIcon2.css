@@ -1,0 +1,53 @@
+.x_icon-4 {
+  align-items: flex-end;
+  border: 1px none;
+  display: flex;
+  height: 16px;
+  justify-content: flex-end;
+  left: 415px;
+  min-width: 17px;
+  padding: 3.3px 3.5px;
+  position: absolute;
+  top: 1209px;
+}
+
+.union-4 {
+  height: 9px;
+  width: 10px;
+}
+
+.x_icon-4.x_icon-5 {
+  top: 1282px;
+}
+
+.x_icon-4.x_icon-6 {
+  top: 1355px;
+}
+
+.x_icon-4.x_icon-7 {
+  top: 1431px;
+}
+
+.x_icon-4.x_icon-8 {
+  align-items: flex-start;
+  top: 1507px;
+}
+
+.x_icon-4.x_icon-9 {
+  align-items: flex-start;
+  top: 1583px;
+}
+
+.x_icon-4.x_icon-10 {
+  align-items: flex-start;
+  height: 17px;
+  left: unset;
+  padding: 3.5px 3.5px;
+  position: unset;
+  top: unset;
+}
+
+.x_icon-4.x_icon-10 .union-4 {
+  height: 10px;
+}
+

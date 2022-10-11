@@ -1,0 +1,77 @@
+.group-7962 {
+  align-items: flex-start;
+  border: 1px none;
+  display: flex;
+  height: 56px;
+  left: 11px;
+  min-width: 100%;
+  position: absolute;
+  top: 56px;
+}
+
+.group-7842-6 {
+  align-items: center;
+  background-color: var(--black);
+  border: 1px none;
+  display: flex;
+  height: 56px;
+  justify-content: flex-end;
+  min-width: 100%;
+  padding: 0 12px;
+  position: relative;
+}
+
+.overlap-group-32 {
+  height: 17px;
+  margin-left: 100px;
+  margin-top: 1.0px;
+  position: relative;
+  width: 16px;
+}
+
+.ellipse-460 {
+  background-color: var(--shocking-pink);
+  border: 1px none;
+  border-radius: 8px;
+  height: 16px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 16px;
+}
+
+.price-3 {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: 11px;
+  font-weight: 500;
+  left: 5px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+}
+
+.overlap-group1-11 {
+  height: 25px;
+  margin-left: 4px;
+  margin-top: 1.0px;
+  position: relative;
+  width: 86px;
+}
+
+.phasika {
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+  width: 70px;
+}
+
+.arrow-down-s-line-1 {
+  height: 24px;
+  left: 62px;
+  position: absolute;
+  top: 1px;
+  width: 24px;
+}
+

@@ -1,0 +1,34 @@
+.group-7785 {
+  align-items: center;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-left: 13px;
+  min-width: 110px;
+}
+
+.mask-group-11 {
+  height: 38px;
+  width: 37px;
+}
+
+.move {
+  height: 11px;
+  margin-top: 0.87px;
+  width: 57px;
+}
+
+.group-7785.group-7785-1,
+.group-7785.group-7785-4 {
+  justify-content: unset;
+  padding: 0 0.0px;
+}
+
+.group-7785.group-7785-2,
+.group-7785.group-7785-3,
+.group-7785.group-7785-6,
+.group-7785.group-7785-7,
+.group-7785.group-7785-9 {
+  justify-content: unset;
+}
+

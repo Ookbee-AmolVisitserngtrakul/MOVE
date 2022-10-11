@@ -1,0 +1,80 @@
+.user-9,
+.user-10,
+.user-11,
+.user-12,
+.user-13,
+.user-14,
+.user-15,
+.user-16,
+.user-17 {
+  align-items: center;
+  border: 1px none;
+  display: flex;
+  height: 16px;
+  padding: 0 0.5px;
+  width: 16px;
+}
+
+.overlap-group-15,
+.overlap-group-16,
+.overlap-group-17,
+.overlap-group-18,
+.overlap-group-19,
+.overlap-group-20,
+.overlap-group-21,
+.overlap-group-22,
+.overlap-group-23 {
+  height: 15px;
+  position: relative;
+  width: 15px;
+}
+
+.rectangle-61,
+.rectangle-61-1,
+.rectangle-61-2,
+.rectangle-61-3,
+.rectangle-61-4,
+.rectangle-61-5,
+.rectangle-61-6,
+.rectangle-61-7,
+.rectangle-61-8 {
+  border: 1px none;
+  height: 13px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 15px;
+}
+
+.vector-2,
+.vector-4,
+.vector-6,
+.vector-8,
+.vector-10,
+.vector-12,
+.vector-14,
+.vector-16,
+.vector-18 {
+  height: 6px;
+  left: 1px;
+  position: absolute;
+  top: 9px;
+  width: 12px;
+}
+
+.vector-3,
+.vector-5,
+.vector-7,
+.vector-9,
+.vector-11,
+.vector-13,
+.vector-15,
+.vector-17,
+.vector-19 {
+  height: 8px;
+  left: 3px;
+  position: absolute;
+  top: 0;
+  width: 8px;
+}
+

@@ -1,0 +1,33 @@
+.x_icon {
+  align-items: center;
+  border: 1px none;
+  display: flex;
+  height: 24px;
+  left: 330px;
+  min-width: 24px;
+  padding: 0 5px;
+  position: absolute;
+  top: 39px;
+}
+
+.union {
+  height: 14px;
+  width: 14px;
+}
+
+.x_icon.x_icon-1 {
+  left: 419px;
+  top: 134px;
+}
+
+.x_icon.x_icon-2 {
+  justify-content: flex-end;
+  left: 331px;
+  padding: 0 5.0px;
+}
+
+.x_icon.x_icon-3 {
+  left: 333px;
+  padding: 0 5.0px;
+}
+

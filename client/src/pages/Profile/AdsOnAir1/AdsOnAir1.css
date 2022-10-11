@@ -1,0 +1,326 @@
+.ads-on-air-1-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--black);
+  display: flex;
+  gap: 347px;
+  height: 816px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.group-7781-7 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 159px;
+  margin-left: -1787px;
+  margin-top: 502px;
+  min-height: 323px;
+  position: relative;
+  width: 1440px;
+}
+
+.rectangle-2394-7 {
+  background-color: var(--white);
+  border: 1px none;
+  box-shadow: 0px 4px 20px #00000026;
+  height: 120px;
+  width: 1440px;
+}
+
+.overlap-group3-9 {
+  height: 2423px;
+  margin-top: -100px;
+  position: relative;
+  width: 716px;
+}
+
+.rectangle-2463-5 {
+  background-color: var(--black);
+  border: 1px none;
+  height: 2408px;
+  left: 0;
+  position: absolute;
+  top: 15px;
+  width: 100%;
+}
+
+.rectangle-2396-5 {
+  border: 1px none;
+  height: 20px;
+  left: 152px;
+  position: absolute;
+  top: 0;
+  width: 98px;
+}
+
+.rectangle-2448-4 {
+  background-color: var(--mid-gray);
+  border: 1px none;
+  height: 17px;
+  left: 143px;
+  position: absolute;
+  top: 3px;
+  width: 139px;
+}
+
+.movecom-5 {
+  left: 152px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+}
+
+.my-status-3 {
+  left: 18px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 123px;
+  width: 698px;
+}
+
+.check-your-media-upload-status-here {
+  left: 18px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 163px;
+  width: 466px;
+}
+
+.group-7883-1 {
+  background-color: var(--steel-gray);
+  height: 211px;
+  left: 1px;
+  position: absolute;
+  top: 207px;
+  width: 100%;
+}
+
+.location-5 {
+  left: 16px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 233px;
+  width: 357px;
+}
+
+.booking-date-10 {
+  left: 16px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 289px;
+  width: 357px;
+}
+
+.parc-paragon-the-9-5 {
+  left: 115px;
+  letter-spacing: 0;
+  position: absolute;
+  text-decoration: underline;
+  top: 233px;
+}
+
+.name-5 {
+  left: 115px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 289px;
+  width: 357px;
+}
+
+.march-62022-4 {
+  left: 115px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 323px;
+  width: 357px;
+}
+
+.uplode-date-4 {
+  left: 16px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 323px;
+  width: 357px;
+}
+
+.status-4 {
+  left: 16px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 368px;
+  width: 357px;
+}
+
+.overlap-group1-13 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 39px;
+  display: flex;
+  gap: 12px;
+  height: 32px;
+  left: 112px;
+  min-width: 101px;
+  padding: 0 4px;
+  position: absolute;
+  top: 362px;
+}
+
+.overlap-group-33 {
+  align-items: flex-start;
+  background-color: var(--tory-blue);
+  border-radius: 13px;
+  display: flex;
+  height: 26px;
+  min-width: 26px;
+  padding: 7px 5px;
+}
+
+.group-7761-1 {
+  height: 10px;
+  width: 15px;
+}
+
+.onair {
+  letter-spacing: 0;
+  margin-bottom: 0.84px;
+  min-height: 17px;
+  width: 53px;
+}
+
+.overlap-group2-10 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 39px;
+  display: flex;
+  gap: 12px;
+  height: 32px;
+  left: 112px;
+  min-width: 101px;
+  padding: 0 4px;
+  position: absolute;
+  top: 578px;
+}
+
+.group-7945-1 {
+  background-color: var(--steel-gray);
+  height: 211px;
+  left: 1px;
+  position: absolute;
+  top: 638px;
+  width: 100%;
+}
+
+.location-6 {
+  left: 16px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 664px;
+  width: 357px;
+}
+
+.booking-date-11 {
+  left: 16px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 720px;
+  width: 357px;
+}
+
+.parc-paragon-the-9-6 {
+  left: 115px;
+  letter-spacing: 0;
+  position: absolute;
+  text-decoration: underline;
+  top: 664px;
+}
+
+.name-6 {
+  left: 115px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 720px;
+  width: 357px;
+}
+
+.march-62022-5 {
+  left: 115px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 754px;
+  width: 357px;
+}
+
+.uplode-date-5 {
+  left: 16px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 754px;
+  width: 357px;
+}
+
+.status-5 {
+  left: 16px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 799px;
+  width: 357px;
+}
+
+.location-7 {
+  left: 16px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 449px;
+  width: 357px;
+}
+
+.booking-date-12 {
+  left: 16px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 505px;
+  width: 357px;
+}
+
+.parc-paragon-the-9-7 {
+  left: 115px;
+  letter-spacing: 0;
+  position: absolute;
+  text-decoration: underline;
+  top: 449px;
+}
+
+.name-7 {
+  left: 115px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 505px;
+  width: 357px;
+}
+
+.march-62022-6 {
+  left: 115px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 539px;
+  width: 357px;
+}
+
+.uplode-date-6 {
+  left: 16px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 539px;
+  width: 357px;
+}
+
+.status-6 {
+  left: 16px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 584px;
+  width: 357px;
+}

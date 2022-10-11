@@ -1,0 +1,27 @@
+.group-7832 {
+  height: 15px;
+  min-width: 417px;
+  position: relative;
+}
+
+.quantity {
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+}
+
+.address-3 {
+  left: 56px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+  width: 357px;
+}
+
+.group-7832.group-7832-1,
+.group-7832.group-7832-3,
+.group-7832.group-7832-5 {
+  margin-right: unset;
+}
+

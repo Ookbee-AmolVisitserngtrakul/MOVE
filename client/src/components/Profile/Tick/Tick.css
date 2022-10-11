@@ -1,0 +1,25 @@
+.tick {
+  align-items: flex-end;
+  border: 1px none;
+  display: flex;
+  height: 16px;
+  left: 8px;
+  min-width: 17px;
+  padding: 3.2px 1.8px;
+  position: absolute;
+  top: 8px;
+}
+
+.vector-1-stroke {
+  height: 9px;
+  width: 13px;
+}
+
+.tick.tick-1 {
+  height: 15px;
+  left: 9px;
+  min-width: 16px;
+  padding: 3.1px 1.7px;
+  top: 9px;
+}
+

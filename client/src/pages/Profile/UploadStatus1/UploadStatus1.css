@@ -1,0 +1,470 @@
+.upload-status-1 {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: var(--black);
+  display: flex;
+  gap: 347px;
+  height: 1495px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.group-7781-6 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 746px;
+  margin-left: -1787px;
+  margin-top: 502px;
+  min-height: 1009px;
+  position: relative;
+  width: 1440px;
+}
+
+.rectangle-2394-6 {
+  background-color: var(--white);
+  border: 1px none;
+  box-shadow: 0px 4px 20px #00000026;
+  height: 219px;
+  width: 1440px;
+}
+
+.overlap-group4-8 {
+  height: 1516px;
+  margin-top: -90px;
+  position: relative;
+  width: 745px;
+}
+
+.rectangle-2463-4 {
+  background-color: var(--black);
+  border: 1px none;
+  height: 1501px;
+  left: 0;
+  position: absolute;
+  top: 15px;
+  width: 100%;
+}
+
+.rectangle-2396-4 {
+  border: 1px none;
+  height: 20px;
+  left: 152px;
+  position: absolute;
+  top: 0;
+  width: 98px;
+}
+
+.rectangle-2448-3 {
+  background-color: var(--mid-gray);
+  border: 1px none;
+  height: 17px;
+  left: 143px;
+  position: absolute;
+  top: 3px;
+  width: 139px;
+}
+
+.movecom-4 {
+  left: 152px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+}
+
+.group-7883 {
+  background-color: var(--steel-gray);
+  height: 211px;
+  left: 1px;
+  position: absolute;
+  top: 173px;
+  width: 100%;
+}
+
+.location-1 {
+  left: 16px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 199px;
+  width: 357px;
+}
+
+.booking-date-6 {
+  left: 16px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 255px;
+  width: 357px;
+}
+
+.parc-paragon-the-9-1 {
+  left: 115px;
+  letter-spacing: 0;
+  position: absolute;
+  text-decoration: underline;
+  top: 199px;
+}
+
+.name-1 {
+  left: 115px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 255px;
+  width: 357px;
+}
+
+.march-62022 {
+  left: 115px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 289px;
+  width: 357px;
+}
+
+.uplode-date {
+  left: 16px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 289px;
+  width: 357px;
+}
+
+.status {
+  left: 16px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 334px;
+  width: 357px;
+}
+
+.group-7945 {
+  background-color: var(--steel-gray);
+  height: 211px;
+  left: 1px;
+  position: absolute;
+  top: 604px;
+  width: 100%;
+}
+
+.location-2 {
+  left: 16px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 630px;
+  width: 357px;
+}
+
+.booking-date-7 {
+  left: 16px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 686px;
+  width: 357px;
+}
+
+.parc-paragon-the-9-2 {
+  left: 115px;
+  letter-spacing: 0;
+  position: absolute;
+  text-decoration: underline;
+  top: 630px;
+}
+
+.name-2 {
+  left: 115px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 686px;
+  width: 357px;
+}
+
+.march-62022-1 {
+  left: 115px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 720px;
+  width: 357px;
+}
+
+.uplode-date-1 {
+  left: 16px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 720px;
+  width: 357px;
+}
+
+.status-1 {
+  left: 16px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 765px;
+  width: 357px;
+}
+
+.location-3 {
+  left: 16px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 415px;
+  width: 357px;
+}
+
+.booking-date-8 {
+  left: 16px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 471px;
+  width: 357px;
+}
+
+.parc-paragon-the-9-3 {
+  left: 115px;
+  letter-spacing: 0;
+  position: absolute;
+  text-decoration: underline;
+  top: 415px;
+}
+
+.name-3 {
+  left: 115px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 471px;
+  width: 357px;
+}
+
+.march-62022-2 {
+  left: 115px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 505px;
+  width: 357px;
+}
+
+.uplode-date-2 {
+  left: 16px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 505px;
+  width: 357px;
+}
+
+.status-2 {
+  left: 16px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 550px;
+  width: 357px;
+}
+
+.overlap-group1-12 {
+  height: 32px;
+  left: 112px;
+  position: absolute;
+  top: 544px;
+  width: 113px;
+}
+
+.approved {
+  left: 35px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 7px;
+  width: 78px;
+}
+
+.group-7947 {
+  background-color: var(--white);
+  border-radius: 39px;
+  height: 32px;
+  left: 112px;
+  position: absolute;
+  top: 981px;
+  width: 101px;
+}
+
+.location-4 {
+  left: 16px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 852px;
+  width: 357px;
+}
+
+.booking-date-9 {
+  left: 16px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 908px;
+  width: 357px;
+}
+
+.parc-paragon-the-9-4 {
+  left: 115px;
+  letter-spacing: 0;
+  position: absolute;
+  text-decoration: underline;
+  top: 852px;
+}
+
+.name-4 {
+  left: 115px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 908px;
+  width: 357px;
+}
+
+.march-62022-3 {
+  left: 115px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 942px;
+  width: 357px;
+}
+
+.uplode-date-3 {
+  left: 16px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 942px;
+  width: 357px;
+}
+
+.status-3 {
+  left: 16px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 987px;
+  width: 357px;
+}
+
+.overlap-group2-9 {
+  height: 32px;
+  left: 112px;
+  position: absolute;
+  top: 759px;
+  width: 113px;
+}
+
+.checking {
+  left: 34px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 7px;
+  width: 79px;
+}
+
+.icon-clock {
+  height: 18px;
+  left: 8px;
+  position: absolute;
+  top: 7px;
+  width: 18px;
+}
+
+.overlap-group3-8 {
+  height: 32px;
+  left: 112px;
+  position: absolute;
+  top: 329px;
+  width: 113px;
+}
+
+.rejected {
+  color: var(--cinnabar);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-weight: 500;
+  left: 149px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 987px;
+  width: 79px;
+}
+
+.group-7949 {
+  align-items: flex-end;
+  background-color: var(--cinnabar);
+  border-radius: 13px;
+  display: flex;
+  height: 26px;
+  left: 116px;
+  min-width: 26px;
+  padding: 4px;
+  position: absolute;
+  top: 984px;
+}
+
+.rectangle-2478 {
+  background-color: var(--white);
+  border: 1px none;
+  height: 55px;
+  left: 16px;
+  position: absolute;
+  top: 1040px;
+  width: 339px;
+}
+
+.group-7948 {
+  align-items: flex-end;
+  display: flex;
+  gap: 1px;
+  height: 32px;
+  left: 30px;
+  min-width: 125px;
+  position: absolute;
+  top: 1052px;
+}
+
+.flex-col-25 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-height: 32px;
+  width: 107px;
+}
+
+.invalid-category {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  letter-spacing: 0;
+  min-height: 12px;
+}
+
+.please-re-upload {
+  color: #ff6767;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  letter-spacing: 0;
+  min-height: 18px;
+  text-decoration: underline;
+}
+
+.question-fill {
+  height: 13px;
+  margin-bottom: 2px;
+  width: 13px;
+}
+
+.vector-25 {
+  height: 15px;
+  left: 18px;
+  position: absolute;
+  top: 110px;
+  width: 16px;
+}
+
+.my-status-2 {
+  left: 47px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 105px;
+  width: 698px;
+}
+

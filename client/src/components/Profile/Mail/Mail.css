@@ -1,0 +1,17 @@
+.mail {
+  align-items: flex-end;
+  border: 1px none;
+  display: flex;
+  height: 26px;
+  left: 117px;
+  min-width: 26px;
+  padding: 4.1px 0;
+  position: absolute;
+  top: 421px;
+}
+
+.icon-mail {
+  height: 18px;
+  width: 26px;
+}
+

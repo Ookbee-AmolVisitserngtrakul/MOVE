@@ -1,0 +1,22 @@
+.group-7781-2,
+.group-7781-3 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  margin-left: -1787px;
+  margin-top: 502px;
+  min-height: 189px;
+  position: relative;
+  width: 1440px;
+}
+
+.rectangle-2394-2,
+.rectangle-2394-3 {
+  background-color: var(--white);
+  border: 1px none;
+  box-shadow: 0px 4px 20px #00000026;
+  height: 100px;
+  width: 1440px;
+}
+

@@ -1,0 +1,48 @@
+.group-7877,
+.group-7877-1,
+.group-7877-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 248px;
+  left: 27px;
+  min-width: 319px;
+  opacity: 0.7;
+  position: absolute;
+  top: 37px;
+  transform: rotate(15.16deg);
+}
+
+.ellipse-container,
+.ellipse-container-1,
+.ellipse-container-2 {
+  height: 248px;
+  position: relative;
+  width: 319px;
+}
+
+.ellipse-441,
+.ellipse-441-1,
+.ellipse-441-2 {
+  background-color: var(--royal-blue);
+  border: 1px none;
+  border-radius: 102.48px;
+  height: 205px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 205px;
+}
+
+.ellipse-442,
+.ellipse-442-1,
+.ellipse-442-2 {
+  background-color: var(--shocking-pink);
+  border: 1px none;
+  border-radius: 81.4px;
+  height: 163px;
+  left: 156px;
+  position: absolute;
+  top: 86px;
+  width: 163px;
+}
+

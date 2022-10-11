@@ -33,7 +33,7 @@ function Sidebar() {
           </Col>
           <Col xs={5} style={{ padding: '2px 0' }} >
             <Dropdown style={{ float: 'right' }}>
-              <Dropdown.Toggle tag style={{ backgroundColor: 'black', color: 'white', border: 0 }} >
+              <Dropdown.Toggle style={{ backgroundColor: 'black', color: 'white', border: 0 }} >
                 <img src={process.env.PUBLIC_URL + '/header/header-profile.png'} width='20px' /> Phasika
               </Dropdown.Toggle>
               <Dropdown.Menu variant='success'>

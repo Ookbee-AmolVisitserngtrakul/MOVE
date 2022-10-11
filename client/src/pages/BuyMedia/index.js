@@ -134,7 +134,7 @@ class BuyMedia extends Component {
 
                 <div className="col-md-12">
                     <select className="form-select mt-3" required defaultValue={0}>
-                                                    <option disabled value="0"><i class="bi bi-geo-alt-fill"> </i>Location</option>
+                                                    <option disabled value="0"><i className="bi bi-geo-alt-fill"></i>Location</option>
                                                     <option value="1">10,000 - 20,000 บาท</option>
                                                     <option value="2">20,000 - 50,000 บาท</option>
                                                     <option value="3">50,000 - 80,000 บาท</option>
@@ -172,7 +172,7 @@ class BuyMedia extends Component {
                     </div>
                     <div className='col-6'  style={{borderLeft:'solid', borderWidth:'2px',  borderColor:'white', }}>
                     <select style={{backgroundColor:'#000000', borderLeft:'none', fontSize:'12px',  borderRight:'none', borderTop:'none',  borderBottom:'none',  color:'white'}} className="form-select " required defaultValue={0}>
-                                                    <option disabled value="0"><i class="bi bi-geo-alt-fill"></i>By price</option>
+                                                    <option disabled value="0"><i className="bi bi-geo-alt-fill"></i>By price</option>
                                                     <option value="1">10,000 - 20,000 บาท</option>
                                                     <option value="2">20,000 - 50,000 บาท</option>
                                                     <option value="3">50,000 - 80,000 บาท</option>

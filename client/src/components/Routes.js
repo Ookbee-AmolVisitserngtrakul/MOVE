@@ -35,55 +35,62 @@ import ReleaseToMarketplaceDialog from "../pages/Profile/ReleaseToMarketplaceDia
 import AdsOnAir2 from "../pages/Profile/AdsOnAir2";
 import ReleaseToMarketplace2 from "../pages/Profile/ReleaseToMarketplace2";
 
+import MyBooking2 from "../pages/MyBooking";
+import UPloadMedia2 from "../pages/MyBooking/uploadmedia";
+import ReleaseMarketPlace2 from "../pages/MyBooking/releasemarketplace";
+
 const NotFoundPage = () => { return <h1>Not Found Page</h1> }
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default () => (
     <Routes>
-        <Route exact path="/" element={<Home/>} />
-        <Route exact path="/login" element={<Login/>} />
-        <Route exact path="/register" element={<Register/>} />
-        <Route exact path="/registermember" element={<RegisterMember/>} />
-        <Route exact path="/bag" element={<Bag/>} />
-        <Route exact path="/buymedia" element={<BuyMedia/>} />
-        <Route exact path="/buynow" element={<BuyNow/>} />
-        <Route exact path="/selectsite" element={<SelectSite/>} />
-        <Route exact path="/selecttime" element={<SelectTime/>} />
-        <Route exact path="/addtocart" element={<AddToCart/>} />
-        <Route exact path="/payment" element={<PayMent/>} />
-        <Route exact path="/optconfirm" element={<OptConFirm/>} />
-        <Route exact path="/optsuscess" element={<OptSuccess/>} />
-        <Route exact path="/sentgift" element={<SentGift/>} />
-        <Route exact path="/marketplace" element={<MarketPlace/>} />
-        <Route exact path="/selectplace" element={<SelectPlace/>} />
-        <Route exact path="/selectplacetime" element={<SelectPlaceTime/>} />
-        <Route exact path="/media/:media" element={<Media/>} />
-        <Route path="*" element={<NotFoundPage/>} />
-        <Route path="/chat" element={<Chat {...chatData}/>}/>
-        <Route path="/upload-artwork-1" element={<UploadArtwork {...uploadArtworkData}/>}/>
-        <Route path="/profile" element={<Profile {...profileData}/>}/>
-        <Route path="/my-booking" element={<MyBooking {...myBookingData}/>}/>
-        <Route path="/release-to-marketplace" element={<ReleaseToMarketplace {...releaseToMarketplaceData}/>}/>
-        <Route path="/to-upload" element={<ToUpload {...toUploadData}/>}/>
-        <Route path="/upload-artwork" element={<UploadArtwork2 {...uploadArtwork2Data}/>}/>
-        <Route path="/upload-status-1" element={<UploadStatus1 {...uploadStatus1Data}/>}/>
-        <Route path="/ads-on-air-1" element={<AdsOnAir1 {...adsOnAir1Data}/>}/>
-        <Route path="/upload-status-2" element={<UploadStatus2 {...uploadStatus2Data}/>}/>
-        <Route path="/upload-status-3" element={<UploadStatus3 {...uploadStatus3Data}/>}/>
-        <Route path="/release-to-marketplace-dialog" element={<ReleaseToMarketplaceDialog {...releaseToMarketplaceDialogData}/>}/>
-        <Route path="/release-to-marketplace-2" element={<ReleaseToMarketplace2 {...releaseToMarketplace2Data}/>}/>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/login" element={<Login />} />
+        <Route exact path="/register" element={<Register />} />
+        <Route exact path="/registermember" element={<RegisterMember />} />
+        <Route exact path="/bag" element={<Bag />} />
+        <Route exact path="/buymedia" element={<BuyMedia />} />
+        <Route exact path="/buynow" element={<BuyNow />} />
+        <Route exact path="/selectsite" element={<SelectSite />} />
+        <Route exact path="/selecttime" element={<SelectTime />} />
+        <Route exact path="/addtocart" element={<AddToCart />} />
+        <Route exact path="/payment" element={<PayMent />} />
+        <Route exact path="/optconfirm" element={<OptConFirm />} />
+        <Route exact path="/optsuscess" element={<OptSuccess />} />
+        <Route exact path="/sentgift" element={<SentGift />} />
+        <Route exact path="/marketplace" element={<MarketPlace />} />
+        <Route exact path="/selectplace" element={<SelectPlace />} />
+        <Route exact path="/selectplacetime" element={<SelectPlaceTime />} />
+        <Route exact path="/media/:media" element={<Media />} />
+        <Route path="*" element={<NotFoundPage />} />
+        <Route path="/chat" element={<Chat {...chatData} />} />
+        <Route path="/upload-artwork-1" element={<UploadArtwork {...uploadArtworkData} />} />
+        <Route path="/profile" element={<Profile {...profileData} />} />
+        <Route path="/my-booking" element={<MyBooking {...myBookingData} />} />
+        <Route path="/release-to-marketplace" element={<ReleaseToMarketplace {...releaseToMarketplaceData} />} />
+        <Route path="/to-upload" element={<ToUpload {...toUploadData} />} />
+        <Route path="/upload-artwork" element={<UploadArtwork2 {...uploadArtwork2Data} />} />
+        <Route path="/upload-status-1" element={<UploadStatus1 {...uploadStatus1Data} />} />
+        <Route path="/ads-on-air-1" element={<AdsOnAir1 {...adsOnAir1Data} />} />
+        <Route path="/upload-status-2" element={<UploadStatus2 {...uploadStatus2Data} />} />
+        <Route path="/upload-status-3" element={<UploadStatus3 {...uploadStatus3Data} />} />
+        <Route path="/release-to-marketplace-dialog" element={<ReleaseToMarketplaceDialog {...releaseToMarketplaceDialogData} />} />
+        <Route path="/release-to-marketplace-2" element={<ReleaseToMarketplace2 {...releaseToMarketplace2Data} />} />
         <Route path="/ads-on-air-2" element={<AdsOnAir2 moveCom="move.com"
             parcParagonThe9={
-              <React.Fragment>
-                PARC PARAGON + THE 90 <br />
-                DEGREE &amp; INTERCHANGE 21
-              </React.Fragment>
+                <React.Fragment>
+                    PARC PARAGON + THE 90 <br />
+                    DEGREE &amp; INTERCHANGE 21
+                </React.Fragment>
             }
             addressChaturathit="Address: Chaturathit Rd, Bang Kapi, Huai Khwang, Bangkok"
             text14="30-08-2022 12:00"
             preview="PREVIEW"
             onair="Onair"
-            group7842Props={adsOnAir2Data.group7842Props}/>}/>
+            group7842Props={adsOnAir2Data.group7842Props} />} />
+        <Route path='/my-booking-2' element={<MyBooking2 />} />
+        <Route path='/upload-media-2' element={<UPloadMedia2 />} />
+        <Route path='/release-market-place-2' element={<ReleaseMarketPlace2 />} />
     </Routes>
 )
 

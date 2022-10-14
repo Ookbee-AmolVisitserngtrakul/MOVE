@@ -112,9 +112,8 @@ class SelectTime extends Component {
                         in</label>
 
 
-                
 
-                        <div  style={{ alignItems:'center' , color:'#F900C0' }}><BsChevronDown></BsChevronDown></div>
+                        <div className='d-flex justify-content-center mt-2 mb-4'  style={{ alignItems:'center' , color:'#F900C0' }}><BsChevronDown></BsChevronDown></div>
                     
                 </div>     
 

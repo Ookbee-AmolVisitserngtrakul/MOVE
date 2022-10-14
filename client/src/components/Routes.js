@@ -18,22 +18,25 @@ import MarketPlace from '../pages/MarketPlace'
 import SelectPlace from '../pages/MarketPlace/selectplace'
 import SelectPlaceTime from '../pages/MarketPlace/selectplacetime'
 import Media from '../pages/Media'
+import ProFile from '../pages/Profile'
+import MyMarketPlace from '../pages/Profile/mymaketplece'
+import RemoveMarketPlace from '../pages/Profile/removemaketplece'
 //import NotFoundPage from './pages/NotFoundPage'
 
-import Chat from "../pages/Profile/Chat";
-import UploadArtwork from "../pages/Profile/UploadArtwork";
-import Profile from "../pages/Profile/Profile";
-import MyBooking from "../pages/Profile/MyBooking";
-import ReleaseToMarketplace from "../pages/Profile/ReleaseToMarketplace";
-import ToUpload from "../pages/Profile/ToUpload";
-import UploadArtwork2 from "../pages/Profile/UploadArtwork2";
-import UploadStatus1 from "../pages/Profile/UploadStatus1";
-import AdsOnAir1 from "../pages/Profile/AdsOnAir1";
-import UploadStatus2 from "../pages/Profile/UploadStatus2";
-import UploadStatus3 from "../pages/Profile/UploadStatus3";
-import ReleaseToMarketplaceDialog from "../pages/Profile/ReleaseToMarketplaceDialog";
-import AdsOnAir2 from "../pages/Profile/AdsOnAir2";
-import ReleaseToMarketplace2 from "../pages/Profile/ReleaseToMarketplace2";
+// import Chat from "../pages/Profile/Chat";
+// import UploadArtwork from "../pages/Profile/UploadArtwork";
+// import Profile from "../pages/Profile/Profile";
+// import MyBooking from "../pages/Profile/MyBooking";
+// import ReleaseToMarketplace from "../pages/Profile/ReleaseToMarketplace";
+// import ToUpload from "../pages/Profile/ToUpload";
+// import UploadArtwork2 from "../pages/Profile/UploadArtwork2";
+// import UploadStatus1 from "../pages/Profile/UploadStatus1";
+// import AdsOnAir1 from "../pages/Profile/AdsOnAir1";
+// import UploadStatus2 from "../pages/Profile/UploadStatus2";
+// import UploadStatus3 from "../pages/Profile/UploadStatus3";
+// import ReleaseToMarketplaceDialog from "../pages/Profile/ReleaseToMarketplaceDialog";
+// import AdsOnAir2 from "../pages/Profile/AdsOnAir2";
+// import ReleaseToMarketplace2 from "../pages/Profile/ReleaseToMarketplace2";
 
 const NotFoundPage = () => { return <h1>Not Found Page</h1> }
 
@@ -57,9 +60,12 @@ export default () => (
         <Route exact path="/marketplace" element={<MarketPlace/>} />
         <Route exact path="/selectplace" element={<SelectPlace/>} />
         <Route exact path="/selectplacetime" element={<SelectPlaceTime/>} />
+        <Route exact path="/ProFile" element={<ProFile/>} />
+        <Route exact path="/mymaketplece" element={<MyMarketPlace/>} />
+        <Route exact path="/removemaketplece" element={<RemoveMarketPlace/>} />
         <Route exact path="/media/:media" element={<Media/>} />
         <Route path="*" element={<NotFoundPage/>} />
-        <Route path="/chat" element={<Chat {...chatData}/>}/>
+        {/* <Route path="/chat" element={<Chat {...chatData}/>}/>
         <Route path="/upload-artwork-1" element={<UploadArtwork {...uploadArtworkData}/>}/>
         <Route path="/profile" element={<Profile {...profileData}/>}/>
         <Route path="/my-booking" element={<MyBooking {...myBookingData}/>}/>
@@ -72,7 +78,7 @@ export default () => (
         <Route path="/upload-status-3" element={<UploadStatus3 {...uploadStatus3Data}/>}/>
         <Route path="/release-to-marketplace-dialog" element={<ReleaseToMarketplaceDialog {...releaseToMarketplaceDialogData}/>}/>
         <Route path="/release-to-marketplace-2" element={<ReleaseToMarketplace2 {...releaseToMarketplace2Data}/>}/>
-        <Route path="/ads-on-air-2" element={<AdsOnAir2 moveCom="move.com"
+        <Route path="/ads-on-air-2" element={<AdsOnAir2 moveCom="move.com" 
             parcParagonThe9={
               <React.Fragment>
                 PARC PARAGON + THE 90 <br />
@@ -83,7 +89,7 @@ export default () => (
             text14="30-08-2022 12:00"
             preview="PREVIEW"
             onair="Onair"
-            group7842Props={adsOnAir2Data.group7842Props}/>}/>
+            group7842Props={adsOnAir2Data.group7842Props}/>}/> */}
     </Routes>
 )
 

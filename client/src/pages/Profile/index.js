@@ -115,14 +115,15 @@ class ProFile extends Component {
                     <hr className='mt-2 mb-2' style={{color:'white' ,borderWidth:'2px' }}></hr>
 
                  
-                        <div className='col-12  mt-3 mb-3'>
+                        <div className='col-12  mt-3 mb-3' >
                             <img
                             src='icon7.png'
                             className='img-fluid shadow-2-strong'
                             alt=''
                             />
-
-                            <b style={{color:'#FFFFFF'}}> CHAT </b> 
+                            <Link to="/chat" style={{ textDecoration:'none' }}>
+                                <b style={{color:'#FFFFFF'}}> CHAT </b> 
+                            </Link>     
                         </div>
 
                 

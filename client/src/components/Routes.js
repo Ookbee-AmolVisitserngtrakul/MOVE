@@ -21,6 +21,7 @@ import Media from '../pages/Media'
 import ProFile from '../pages/Profile'
 import MyMarketPlace from '../pages/Profile/mymaketplece'
 import RemoveMarketPlace from '../pages/Profile/removemaketplece'
+import Chat from "../pages/Profile/Chat";
 //import NotFoundPage from './pages/NotFoundPage'
 
 // import Chat from "../pages/Profile/Chat";
@@ -64,6 +65,7 @@ export default () => (
         <Route exact path="/mymaketplece" element={<MyMarketPlace/>} />
         <Route exact path="/removemaketplece" element={<RemoveMarketPlace/>} />
         <Route exact path="/media/:media" element={<Media/>} />
+        <Route path="/chat" element={<Chat {...chatData}/>}/>
         <Route path="*" element={<NotFoundPage/>} />
         {/* <Route path="/chat" element={<Chat {...chatData}/>}/>
         <Route path="/upload-artwork-1" element={<UploadArtwork {...uploadArtworkData}/>}/>

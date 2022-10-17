@@ -22,6 +22,9 @@ import Media from '../pages/Media'
 import MyMarketPlace from '../pages/Profile/mymaketplece'
 import RemoveMarketPlace from '../pages/Profile/removemaketplece'
 import Chat from "../pages/Profile/Chat";
+//import MyBooking from "../pages/MyBooking";
+//import ReleaseToMarketplace from "../pages/MyBooking/releasemarketplace";
+//import UploadMedia from "../pages/MyBooking/uploadmedia";
 //import NotFoundPage from './pages/NotFoundPage'
 import UploadArtwork from "../pages/Profile/UploadArtwork";
 import Profile from "../pages/Profile/Profile";

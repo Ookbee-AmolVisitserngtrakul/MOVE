@@ -58,7 +58,7 @@ function Sidebar() {
         <Offcanvas.Body>
           <Navbar expand='false'>
             <Container >
-              <Nav className="me-auto">
+              <Nav className="me-auto" style={{ width: '100%' }}>
                 <Nav.Link><span style={{ color: '#F900C0' }}>EN</span> / TH</Nav.Link>
                 <Nav.Link href='/registermember'>Sign up</Nav.Link>
                 <NavDropdown.Divider />

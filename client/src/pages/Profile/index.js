@@ -67,12 +67,13 @@ class ProFile extends Component {
                 
                 <div className='row'>
                     <div className='col-3 mt-3 mb-3'>
-                        <img
-                        src='icon1.png'
-                        className='img-fluid shadow-2-strong'
-                        alt=''
-                        />
-
+                        <a href='/mybooking'>
+                            <img
+                            src='icon1.png'
+                            className='img-fluid shadow-2-strong'
+                            alt=''
+                            />
+                        </a>
                     </div>
                     <div className='col-3 mt-3 mb-3'>
                         <img

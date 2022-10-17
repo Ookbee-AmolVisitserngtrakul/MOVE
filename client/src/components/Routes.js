@@ -22,6 +22,9 @@ import ProFile from '../pages/Profile'
 import MyMarketPlace from '../pages/Profile/mymaketplece'
 import RemoveMarketPlace from '../pages/Profile/removemaketplece'
 import Chat from "../pages/Profile/Chat";
+import MyBooking from "../pages/MyBooking";
+import ReleaseToMarketplace from "../pages/MyBooking/releasemarketplace";
+import UploadMedia from "../pages/MyBooking/uploadmedia";
 //import NotFoundPage from './pages/NotFoundPage'
 
 // import Chat from "../pages/Profile/Chat";
@@ -44,29 +47,32 @@ const NotFoundPage = () => { return <h1>Not Found Page</h1> }
 // eslint-disable-next-line import/no-anonymous-default-export
 export default () => (
     <Routes>
-        <Route exact path="/" element={<Home/>} />
-        <Route exact path="/login" element={<Login/>} />
-        <Route exact path="/register" element={<Register/>} />
-        <Route exact path="/registermember" element={<RegisterMember/>} />
-        <Route exact path="/bag" element={<Bag/>} />
-        <Route exact path="/buymedia" element={<BuyMedia/>} />
-        <Route exact path="/buynow" element={<BuyNow/>} />
-        <Route exact path="/selectsite" element={<SelectSite/>} />
-        <Route exact path="/selecttime" element={<SelectTime/>} />
-        <Route exact path="/addtocart" element={<AddToCart/>} />
-        <Route exact path="/payment" element={<PayMent/>} />
-        <Route exact path="/optconfirm" element={<OptConFirm/>} />
-        <Route exact path="/optsuscess" element={<OptSuccess/>} />
-        <Route exact path="/sentgift" element={<SentGift/>} />
-        <Route exact path="/marketplace" element={<MarketPlace/>} />
-        <Route exact path="/selectplace" element={<SelectPlace/>} />
-        <Route exact path="/selectplacetime" element={<SelectPlaceTime/>} />
-        <Route exact path="/ProFile" element={<ProFile/>} />
-        <Route exact path="/mymaketplece" element={<MyMarketPlace/>} />
-        <Route exact path="/removemaketplece" element={<RemoveMarketPlace/>} />
-        <Route exact path="/media/:media" element={<Media/>} />
-        <Route path="/chat" element={<Chat {...chatData}/>}/>
-        <Route path="*" element={<NotFoundPage/>} />
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/login" element={<Login />} />
+        <Route exact path="/register" element={<Register />} />
+        <Route exact path="/registermember" element={<RegisterMember />} />
+        <Route exact path="/bag" element={<Bag />} />
+        <Route exact path="/buymedia" element={<BuyMedia />} />
+        <Route exact path="/buynow" element={<BuyNow />} />
+        <Route exact path="/selectsite" element={<SelectSite />} />
+        <Route exact path="/selecttime" element={<SelectTime />} />
+        <Route exact path="/addtocart" element={<AddToCart />} />
+        <Route exact path="/payment" element={<PayMent />} />
+        <Route exact path="/optconfirm" element={<OptConFirm />} />
+        <Route exact path="/optsuscess" element={<OptSuccess />} />
+        <Route exact path="/sentgift" element={<SentGift />} />
+        <Route exact path="/marketplace" element={<MarketPlace />} />
+        <Route exact path="/selectplace" element={<SelectPlace />} />
+        <Route exact path="/selectplacetime" element={<SelectPlaceTime />} />
+        <Route exact path="/ProFile" element={<ProFile />} />
+        <Route exact path="/mymaketplece" element={<MyMarketPlace />} />
+        <Route exact path="/removemaketplece" element={<RemoveMarketPlace />} />
+        <Route exact path="/media/:media" element={<Media />} />
+        <Route path="/chat" element={<Chat {...chatData} />} />
+        <Route path="/mybooking" element={<MyBooking />} />
+        <Route path="/releasetomarketplace" element={<ReleaseToMarketplace />} />
+        <Route path="/uploadmedia" element={<UploadMedia />} />
+        <Route path="*" element={<NotFoundPage />} />
         {/* <Route path="/chat" element={<Chat {...chatData}/>}/>
         <Route path="/upload-artwork-1" element={<UploadArtwork {...uploadArtworkData}/>}/>
         <Route path="/profile" element={<Profile {...profileData}/>}/>

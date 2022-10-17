@@ -17,7 +17,7 @@ class UploadMedia extends Component {
                         <Container>
                             <Row style={{ paddingTop: '40px' }}>
                                 <Col xs={1}>
-                                    <img className='arrow-left-line-1' src={process.env.PUBLIC_URL + '/img/arrow-left-line-3@2x.svg'} />
+                                    <a href='javascript:history.back()'><img className='arrow-left-line-1' src={process.env.PUBLIC_URL + '/img/arrow-left-line-3@2x.svg'} /></a>
                                 </Col>
                                 <Col style={{ paddingTop: '3px' }}>
                                     <h3 style={{ maring: 0 }}>PARC PARAGON + THE 90 DEGREE & INTERCHANGE 21</h3>

@@ -37,7 +37,7 @@ function Sidebar() {
                 <img src={process.env.PUBLIC_URL + '/header/header-profile.png'} width='20px' /> Phasika
               </Dropdown.Toggle>
               <Dropdown.Menu variant='success'>
-                <Dropdown.Item href='profile'>Profile</Dropdown.Item>
+                <Dropdown.Item href='/profile'>Profile</Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
           </Col>

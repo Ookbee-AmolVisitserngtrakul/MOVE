@@ -11,9 +11,9 @@ class MyBooking extends Component {
     render() {
         return (
             <Container className='align-items-center' style={{ color: 'white' }}>
-                <Row stype={{paddingTop:'20px'}}>
+                <Row stype={{ paddingTop: '20px' }}>
                     <Col xs={1}>
-                        <img className='arrow-left-line-1' src={process.env.PUBLIC_URL + '/img/arrow-left-line-3@2x.svg'} />
+                        <a href='javascript:history.back()'><img className='arrow-left-line-1' src={process.env.PUBLIC_URL + '/img/arrow-left-line-3@2x.svg'} /></a>
                     </Col>
                     <Col style={{ paddingTop: '3px' }}>
                         <h3 style={{ maring: 0 }}>MY <span style={{ color: '#F900C0' }}>BOOKING</span></h3>
@@ -81,14 +81,14 @@ function BookingFrame({ image_path, name, location, qty, pack, loop, start_date,
                         </Row>
                         <Row>
                             <Col style={{ paddingTop: '30px' }}>
-                                <Button size='lg' className='btn-colorful-bg' style={{ color: 'black' }} href='/upload-media-2'>
+                                <Button size='lg' className='btn-colorful-bg' style={{ color: 'black' }} href='/uploadmedia'>
                                     UPLOAD MEDIA
                                 </Button>
                             </Col>
                         </Row>
                         <Row>
                             <Col style={{ paddingTop: '10px' }}>
-                                <Button size='lg' className='btn-black-bg' style={{ color: 'white' }}>
+                                <Button size='lg' className='btn-black-bg' style={{ color: 'white' }} href='/releasetomarketplace'>
                                     RELEASE TO MARKETPLACE
                                 </Button>
                             </Col>

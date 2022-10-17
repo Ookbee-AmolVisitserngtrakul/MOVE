@@ -1,4 +1,5 @@
 import React, { Component, useState } from 'react';
+import { useNavigate } from "react-router-dom";
 import '../App.css';
 import { Container, Row, Col, Nav, Navbar, Offcanvas, NavDropdown, Dropdown, DropdownButton } from 'react-bootstrap';
 
@@ -19,6 +20,15 @@ function Sidebar() {
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+  const navigate = useNavigate();
+
+  function profile () {
+    navigate("/profile");
+  }
+
+  function Home () {
+    navigate("/");
+  }
 
   return (
     <>
@@ -26,19 +36,19 @@ function Sidebar() {
         <Row>
           <Col xs={1} style={{ paddingTop: '5px' }}>
             <img src={process.env.PUBLIC_URL + '/header/header-menu.png'}
-              width='20px' onClick={handleShow} />
+              width='20px' onClick={handleShow} alt=""/>
           </Col>
           <Col xs={6}>
-            <img src={process.env.PUBLIC_URL + '/header/header-logo.png'} width='120px' />
+            <img onClick={Home} src={process.env.PUBLIC_URL + '/header/header-logo.png'} width='120px' alt=""/>
           </Col>
           <Col xs={5} style={{ padding: '2px 0' }} >
             <Dropdown style={{ float: 'right' }}>
-              <Dropdown.Toggle style={{ backgroundColor: 'black', color: 'white', border: 0 }} >
-                <img src={process.env.PUBLIC_URL + '/header/header-profile.png'} width='20px' /> Phasika
+              <Dropdown.Toggle style={{ backgroundColor: 'black', color: 'white', border: 0 }} onClick={profile}>
+                <img src={process.env.PUBLIC_URL + '/header/header-profile.png'} width='20px' alt=""/> Phasika
               </Dropdown.Toggle>
-              <Dropdown.Menu variant='success'>
+              {/* <Dropdown.Menu variant='success'>
                 <Dropdown.Item href='profile'>Profile</Dropdown.Item>
-              </Dropdown.Menu>
+              </Dropdown.Menu> */}
             </Dropdown>
           </Col>
         </Row>
@@ -61,15 +71,15 @@ function Sidebar() {
                   <NavDropdown.Item href='/selectsite'>Recently viewed</NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown title='Marketplace'>
-                  <NavDropdown.Item href='/marketplace'>Sell</NavDropdown.Item>
-                  <NavDropdown.Item href='/mymaketplece'>My listing</NavDropdown.Item>
+                  <NavDropdown.Item href='/release-to-marketplace-2'>Sell</NavDropdown.Item>
+                  <NavDropdown.Item href='/upload-artwork'>My listing</NavDropdown.Item>
                   <NavDropdown.Item href='/marketplace'>Search market place</NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link href='/#tokenMove'>Move</Nav.Link>
                 <Nav.Link href='/chat'>Inbox</Nav.Link>
                 <Nav.Link href='/payment'>Connect wallet</Nav.Link>
                 <Nav.Link href='/to-upload'>My media gallery</Nav.Link>
-                <Nav.Link><img src={process.env.PUBLIC_URL + '/header/header-social.png'} width='80px' /></Nav.Link>
+                <Nav.Link><img src={process.env.PUBLIC_URL + '/header/header-social.png'} width='80px' alt=""/></Nav.Link>
               </Nav>
             </Container>
           </Navbar>

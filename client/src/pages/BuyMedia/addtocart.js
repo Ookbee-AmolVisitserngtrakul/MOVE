@@ -147,7 +147,7 @@ class AddToCart extends Component {
 
 
                             <br></br>
-                            <Link to="/Login"> 
+                            <Link to="/payment"> 
                             <Button className='col-12 btnmove mb-2 ' style={{ backgroundColor:'#F900C0', fontSize:'16px',  color:'#000000'}} size='lg'> <b>CONFIRM</b> 
                             </Button>
                             </Link>

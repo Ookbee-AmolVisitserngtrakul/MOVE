@@ -72,14 +72,10 @@ class Home extends Component {
                             </Row>
                             <Row style={{ paddingTop: '20px', paddingBottom: '20px' }}>
                                 <Col className='d-grid gap-2'>
-
-                                <Link to="/buynow">
-                                <Button className='col-12 btnmove' style={{ backgroundColor:'#F900C0', fontSize:'16px',  color:'#000000'}} size='lg'> <b>Buy Media</b> 
-                                </Button>
-                                </Link>    
-
-
-                                    {/* <Button size="lg" style={{ border: 0, backgroundImage: "url('" + process.env.PUBLIC_URL + "/home/home-buymedia-btn.png')" }}  >Buy Media</Button> */}
+                                    <Link to="/buynow">
+                                        <Button className='col-12 btnmove' style={{ backgroundColor:'#F900C0', fontSize:'16px',  color:'#000000'}} size='lg'> <b>Buy Media</b> 
+                                        </Button>
+                                    </Link>    
                                 </Col>
                             </Row>
                         </Container>
@@ -101,22 +97,30 @@ class Home extends Component {
                             <Row>
                           
                                 <Col xs={6} style={{ padding: '5px' }}>
-                                    <PromotionFrame imagePath='/home/home-promotion-banner1.png' name='BIRTHDAY PROJECT'
+                                    <Link to="/selectsite">
+                                        <PromotionFrame imagePath='/home/home-promotion-banner1.png' name='BIRTHDAY PROJECT'
                                         location='EMPORIUM & EMQUARTIER' price='24,000' />
+                                    </Link>
                                 </Col>
                                 <Col xs={6} style={{ padding: '5px' }}>
-                                    <PromotionFrame imagePath='/home/home-promotion-banner2.png' name='VALENTIME DAY'
-                                        location='EMPORIUM & EMQUARTIER' price='24,000' />
+                                    <Link to="/selectsite">
+                                        <PromotionFrame imagePath='/home/home-promotion-banner2.png' name='VALENTIME DAY'
+                                            location='EMPORIUM & EMQUARTIER' price='24,000' />
+                                    </Link>
                                 </Col>
                             </Row>
                             <Row>
                                 <Col xs={6} style={{ padding: '5px' }}>
-                                    <PromotionFrame imagePath='/home/home-promotion-banner3.png' name='MY IDOL'
-                                        location='EMPORIUM & EMQUARTIER' price='24,000' />
+                                    <Link to="/selectsite">
+                                        <PromotionFrame imagePath='/home/home-promotion-banner3.png' name='MY IDOL'
+                                            location='EMPORIUM & EMQUARTIER' price='24,000' />
+                                    </Link>
                                 </Col>
                                 <Col xs={6} style={{ padding: '5px' }}>
-                                    <PromotionFrame imagePath='/home/home-promotion-banner4.png' name='I LOVE NFT'
+                                    <Link to="/selectsite">
+                                        <PromotionFrame imagePath='/home/home-promotion-banner4.png' name='I LOVE NFT'
                                         location='EMPORIUM & EMQUARTIER' price='24,000' />
+                                    </Link>
                                 </Col>
                             </Row>
                         </Container>
@@ -141,7 +145,7 @@ class Home extends Component {
                                         name='Show DC' price='24,000' />
                                 </Col>
                                 <Col xs={3} style={{ textAlign: 'center' }}>
-                                    <Link to="/buynow">
+                                    <Link to="/selecttime">
                                     <Button style={{ color: 'white', backgroundColor: 'black' }}><b>BUY</b></Button>
                                     </Link>
                                 </Col>
@@ -152,7 +156,7 @@ class Home extends Component {
                                         name='EMPORIUM & EMQUARTIER' price='24,000' />
                                 </Col>
                                 <Col xs={3} style={{ textAlign: 'center' }}>
-                                    <Link to="/buynow">
+                                    <Link to="/selecttime">
                                     <Button style={{ color: 'white', backgroundColor: 'black' }}><b>BUY</b></Button>
                                     </Link>
                                 </Col>
@@ -163,7 +167,7 @@ class Home extends Component {
                                         name='PARC PARAGON + THE 90 DEGREE & INTERCHANGE 21' price='24,000' />
                                 </Col>
                                 <Col xs={3} style={{ textAlign: 'center' }}>
-                                    <Link to="/buynow">
+                                    <Link to="/selecttime">
                                     <Button style={{ color: 'white', backgroundColor: 'black' }}><b>BUY</b></Button>
                                     </Link>
                                 </Col>
@@ -174,7 +178,7 @@ class Home extends Component {
                                         name='EMPORIUM & EMQUARTIER' price='24,000' />
                                 </Col>
                                 <Col xs={3} style={{ textAlign: 'center' }}>
-                                    <Link to="/buynow">
+                                    <Link to="/selecttime">
                                     <Button style={{ color: 'white', backgroundColor: 'black' }}><b>BUY</b></Button>
                                     </Link>
                                 </Col>
@@ -185,7 +189,7 @@ class Home extends Component {
                                         name='Show DC' price='24,000' />
                                 </Col>
                                 <Col xs={3} style={{ textAlign: 'center' }}>
-                                    <Link to="/buynow">
+                                    <Link to="/selecttime">
                                     <Button style={{ color: 'white', backgroundColor: 'black' }}><b>BUY</b></Button>
                                     </Link>
                                 </Col>

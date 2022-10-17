@@ -66,6 +66,10 @@ function UploadStatus1(props) {
     navigate("/upload-status-3")
   }
 
+  function uploadArtwork () {
+    navigate("/upload-artwork-1")
+  }
+
   return (
     <div className="container-center-horizontal">
       <div className="upload-status-1 screen">
@@ -124,7 +128,7 @@ function UploadStatus1(props) {
             <div className="checking poppins-medium-yellow-sea-12px">{checking2}</div>
             <img className="icon-clock" src="/img/history-1@2x.svg" alt="icon-clock" />
           </div>
-          <div className="rejected">{rejected}</div>
+          <div className="rejected" onClick={uploadArtwork}>{rejected}</div>
           <div className="group-7949">
             <XIcon2 className={xIcon2Props.className} />
           </div>

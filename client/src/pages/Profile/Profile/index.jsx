@@ -58,7 +58,7 @@ function Profile(props) {
   }
 
   function releaseToMarketPlace () {
-    navigate("/release-to-marketplace-2")
+    navigate("/upload-artwork")
   }
 
   function goToChat () {
@@ -89,7 +89,7 @@ function Profile(props) {
           <div className="overlap-group1-6">
             <div className="number-6 poppins-medium-white-8px">{number2}</div>
           </div>
-          <div className="history-1 poppins-medium-shocking-pink-14px">{history}</div>
+          {/* <div className="history-1 poppins-medium-shocking-pink-14px">{history}</div> */}
           <div className="group-7951-3"></div>
           <img className="line-638-3" src="/img/line-638-3@2x.svg" alt="Line 638" />
           <div className="my-wallet-1 poppins-bold-white-16px">{myWallet}</div>

@@ -225,8 +225,8 @@ class BuyMedia extends Component {
                 <div className='textsize-sm mt-2 mb-4' style={{paddingRight:'1em' }}>
                     <div className='row'>
                         <div className='col-6 mt-4'>
-
-                             <Card style={{ width: '10rem' }}>
+                        <Link to="/selecttime">
+                            <Card style={{ width: '10rem' }}>
                             <Card.Img variant="top" src="/showdc.png" />
                             <Card.Body>
                                 <Card.Title style={{color:'black', fontSize:'14px'}}>SHOW DC</Card.Title>
@@ -238,8 +238,7 @@ class BuyMedia extends Component {
                                 
                             </Card.Body>
                             </Card>
-
-
+                        </Link>
                         </div>
                         <div className='col-6 mt-4'>
                             <Card style={{ width: '10rem' }}>
@@ -355,8 +354,10 @@ class BuyMedia extends Component {
                             <a>Available pack : 6</a><br></br>
                             <a>Date : 12/06/2565 - 15/07/2565</a><br></br>
                             <b style={{color:'#F900C0' , fontSize:'18px'}}>24,000฿</b> <br></br>
+                            <Link to="/selecttime">
                             <Button className='col-6 ' style={{ backgroundColor:'#FFFFFF', fontSize:'10px',  color:'#000000'}} size='sm'> <b>Select</b>
                             </Button> 
+                            </Link>
                         </div>
                         <hr></hr>
                         <div className='col-6 mb-2'>

@@ -18,56 +18,52 @@ import MarketPlace from '../pages/MarketPlace'
 import SelectPlace from '../pages/MarketPlace/selectplace'
 import SelectPlaceTime from '../pages/MarketPlace/selectplacetime'
 import Media from '../pages/Media'
-import ProFile from '../pages/Profile'
+//import ProFile from '../pages/Profile'
 import MyMarketPlace from '../pages/Profile/mymaketplece'
 import RemoveMarketPlace from '../pages/Profile/removemaketplece'
 import Chat from "../pages/Profile/Chat";
 //import NotFoundPage from './pages/NotFoundPage'
-
-// import Chat from "../pages/Profile/Chat";
-// import UploadArtwork from "../pages/Profile/UploadArtwork";
-// import Profile from "../pages/Profile/Profile";
-// import MyBooking from "../pages/Profile/MyBooking";
-// import ReleaseToMarketplace from "../pages/Profile/ReleaseToMarketplace";
-// import ToUpload from "../pages/Profile/ToUpload";
-// import UploadArtwork2 from "../pages/Profile/UploadArtwork2";
-// import UploadStatus1 from "../pages/Profile/UploadStatus1";
-// import AdsOnAir1 from "../pages/Profile/AdsOnAir1";
-// import UploadStatus2 from "../pages/Profile/UploadStatus2";
-// import UploadStatus3 from "../pages/Profile/UploadStatus3";
-// import ReleaseToMarketplaceDialog from "../pages/Profile/ReleaseToMarketplaceDialog";
-// import AdsOnAir2 from "../pages/Profile/AdsOnAir2";
-// import ReleaseToMarketplace2 from "../pages/Profile/ReleaseToMarketplace2";
+import UploadArtwork from "../pages/Profile/UploadArtwork";
+import Profile from "../pages/Profile/Profile";
+import MyBooking from "../pages/Profile/MyBooking";
+import ReleaseToMarketplace from "../pages/Profile/ReleaseToMarketplace";
+import ToUpload from "../pages/Profile/ToUpload";
+import UploadArtwork2 from "../pages/Profile/UploadArtwork2";
+import UploadStatus1 from "../pages/Profile/UploadStatus1";
+import AdsOnAir1 from "../pages/Profile/AdsOnAir1";
+import UploadStatus2 from "../pages/Profile/UploadStatus2";
+import UploadStatus3 from "../pages/Profile/UploadStatus3";
+import ReleaseToMarketplaceDialog from "../pages/Profile/ReleaseToMarketplaceDialog";
+import AdsOnAir2 from "../pages/Profile/AdsOnAir2";
+import ReleaseToMarketplace2 from "../pages/Profile/ReleaseToMarketplace2";
 
 const NotFoundPage = () => { return <h1>Not Found Page</h1> }
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default () => (
     <Routes>
-        <Route exact path="/" element={<Home/>} />
-        <Route exact path="/login" element={<Login/>} />
-        <Route exact path="/register" element={<Register/>} />
-        <Route exact path="/registermember" element={<RegisterMember/>} />
-        <Route exact path="/bag" element={<Bag/>} />
-        <Route exact path="/buymedia" element={<BuyMedia/>} />
-        <Route exact path="/buynow" element={<BuyNow/>} />
-        <Route exact path="/selectsite" element={<SelectSite/>} />
-        <Route exact path="/selecttime" element={<SelectTime/>} />
-        <Route exact path="/addtocart" element={<AddToCart/>} />
-        <Route exact path="/payment" element={<PayMent/>} />
-        <Route exact path="/optconfirm" element={<OptConFirm/>} />
-        <Route exact path="/optsuscess" element={<OptSuccess/>} />
-        <Route exact path="/sentgift" element={<SentGift/>} />
-        <Route exact path="/marketplace" element={<MarketPlace/>} />
-        <Route exact path="/selectplace" element={<SelectPlace/>} />
-        <Route exact path="/selectplacetime" element={<SelectPlaceTime/>} />
-        <Route exact path="/ProFile" element={<ProFile/>} />
-        <Route exact path="/mymaketplece" element={<MyMarketPlace/>} />
-        <Route exact path="/removemaketplece" element={<RemoveMarketPlace/>} />
-        <Route exact path="/media/:media" element={<Media/>} />
+        <Route path="/" element={<Home/>} />
+        <Route path="/login" element={<Login/>} />
+        <Route path="/register" element={<Register/>} />
+        <Route path="/registermember" element={<RegisterMember/>} />
+        <Route path="/bag" element={<Bag/>} />
+        <Route path="/buymedia" element={<BuyMedia/>} />
+        <Route path="/buynow" element={<BuyNow/>} />
+        <Route path="/selectsite" element={<SelectSite/>} />
+        <Route path="/selecttime" element={<SelectTime/>} />
+        <Route path="/addtocart" element={<AddToCart/>} />
+        <Route path="/payment" element={<PayMent/>} />
+        <Route path="/optconfirm" element={<OptConFirm/>} />
+        <Route path="/optsuscess" element={<OptSuccess/>} />
+        <Route path="/sentgift" element={<SentGift/>} />
+        <Route path="/marketplace" element={<MarketPlace/>} />
+        <Route path="/selectplace" element={<SelectPlace/>} />
+        <Route path="/selectplacetime" element={<SelectPlaceTime/>} />
+        {/* <Route path="/ProFile" element={<ProFile/>} /> */}
+        <Route path="/mymaketplece" element={<MyMarketPlace/>} />
+        <Route path="/removemaketplece" element={<RemoveMarketPlace/>} />
+        <Route path="/media/:media" element={<Media/>} />
         <Route path="/chat" element={<Chat {...chatData}/>}/>
-        <Route path="*" element={<NotFoundPage/>} />
-        {/* <Route path="/chat" element={<Chat {...chatData}/>}/>
         <Route path="/upload-artwork-1" element={<UploadArtwork {...uploadArtworkData}/>}/>
         <Route path="/profile" element={<Profile {...profileData}/>}/>
         <Route path="/my-booking" element={<MyBooking {...myBookingData}/>}/>
@@ -91,7 +87,8 @@ export default () => (
             text14="30-08-2022 12:00"
             preview="PREVIEW"
             onair="Onair"
-            group7842Props={adsOnAir2Data.group7842Props}/>}/> */}
+            group7842Props={adsOnAir2Data.group7842Props}/>}/>
+        <Route path="*" element={<NotFoundPage/>} />
     </Routes>
 )
 

@@ -102,14 +102,14 @@ class RegisterMember extends Component {
 
 
              
-                <Link to="/payment">
+                <Link to="/profile">
                 <Button className='col-12 btnmove mb-3 ' style={{ backgroundColor:'#F900C0', fontSize:'16px',  color:'#000000'}} size='lg'> <b>Register</b> 
                 </Button>
                 </Link>
                
                 <br></br>
                 <div className='d-flex justify-content-center mb-5' style={{color:'#FFFFFF',fontSize:'14px' , textDecoration:'underline'}}>             
-                        <b>Or Login here</b>               
+                    <Link to="/login"><b>Or Login here</b></Link>         
                 </div>
 
 

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../../App.css';
 import { Button, Container, Row, Col, Carousel } from 'react-bootstrap';
 import { First } from 'react-bootstrap/esm/PageItem';
-
+import { Link } from "react-router-dom";
 
 class Home extends Component {
     constructor(props) {
@@ -22,6 +22,7 @@ class Home extends Component {
                         <Container>
                             <Row >
                                 <Col>
+                                    
                                     <h3>Buy Media</h3>
                                 </Col>
                             </Row>
@@ -71,7 +72,14 @@ class Home extends Component {
                             </Row>
                             <Row style={{ paddingTop: '20px', paddingBottom: '20px' }}>
                                 <Col className='d-grid gap-2'>
-                                    <Button size="lg" style={{ border: 0, backgroundImage: "url('" + process.env.PUBLIC_URL + "/home/home-buymedia-btn.png')" }}  >Buy Media</Button>
+
+                                <Link to="/buynow">
+                                <Button className='col-12 btnmove' style={{ backgroundColor:'#F900C0', fontSize:'16px',  color:'#000000'}} size='lg'> <b>Buy Media</b> 
+                                </Button>
+                                </Link>    
+
+
+                                    {/* <Button size="lg" style={{ border: 0, backgroundImage: "url('" + process.env.PUBLIC_URL + "/home/home-buymedia-btn.png')" }}  >Buy Media</Button> */}
                                 </Col>
                             </Row>
                         </Container>
@@ -84,11 +92,14 @@ class Home extends Component {
                                 <Col><img src={process.env.PUBLIC_URL + "/home/home-buymedia-bar.png"} height='5px' /></Col>
                             </Row>
                             <Row>
+                                
                                 <Col style={{ paddingBottom: '20px' }}>
                                     <h3>NEW <span style={{ color: '#F900C0' }}>PROMOTION</span></h3>
                                 </Col>
+                                
                             </Row>
                             <Row>
+                          
                                 <Col xs={6} style={{ padding: '5px' }}>
                                     <PromotionFrame imagePath='/home/home-promotion-banner1.png' name='BIRTHDAY PROJECT'
                                         location='EMPORIUM & EMQUARTIER' price='24,000' />
@@ -130,7 +141,9 @@ class Home extends Component {
                                         name='Show DC' price='24,000' />
                                 </Col>
                                 <Col xs={3} style={{ textAlign: 'center' }}>
+                                    <Link to="/buynow">
                                     <Button style={{ color: 'white', backgroundColor: 'black' }}><b>BUY</b></Button>
+                                    </Link>
                                 </Col>
                             </Row>
                             <Row style={{ borderBottom: '1px solid gray', padding: '10px 0 10px' }}>
@@ -139,7 +152,9 @@ class Home extends Component {
                                         name='EMPORIUM & EMQUARTIER' price='24,000' />
                                 </Col>
                                 <Col xs={3} style={{ textAlign: 'center' }}>
+                                    <Link to="/buynow">
                                     <Button style={{ color: 'white', backgroundColor: 'black' }}><b>BUY</b></Button>
+                                    </Link>
                                 </Col>
                             </Row>
                             <Row style={{ borderBottom: '1px solid gray', padding: '10px 0 10px' }}>
@@ -148,7 +163,9 @@ class Home extends Component {
                                         name='PARC PARAGON + THE 90 DEGREE & INTERCHANGE 21' price='24,000' />
                                 </Col>
                                 <Col xs={3} style={{ textAlign: 'center' }}>
+                                    <Link to="/buynow">
                                     <Button style={{ color: 'white', backgroundColor: 'black' }}><b>BUY</b></Button>
+                                    </Link>
                                 </Col>
                             </Row>
                             <Row style={{ borderBottom: '1px solid gray', padding: '10px 0 10px' }}>
@@ -157,7 +174,9 @@ class Home extends Component {
                                         name='EMPORIUM & EMQUARTIER' price='24,000' />
                                 </Col>
                                 <Col xs={3} style={{ textAlign: 'center' }}>
+                                    <Link to="/buynow">
                                     <Button style={{ color: 'white', backgroundColor: 'black' }}><b>BUY</b></Button>
+                                    </Link>
                                 </Col>
                             </Row>
                             <Row style={{ padding: '10px 0 10px' }}>
@@ -166,7 +185,9 @@ class Home extends Component {
                                         name='Show DC' price='24,000' />
                                 </Col>
                                 <Col xs={3} style={{ textAlign: 'center' }}>
+                                    <Link to="/buynow">
                                     <Button style={{ color: 'white', backgroundColor: 'black' }}><b>BUY</b></Button>
+                                    </Link>
                                 </Col>
                             </Row>
                         </Container>
@@ -212,7 +233,13 @@ class Home extends Component {
                             </Row>
                             <Row>
                                 <Col className='d-grid gap-2' style={{ padding: '20px 0 10px' }}>
-                                    <Button size='lg' style={{ border: 0, backgroundImage: "url('" + process.env.PUBLIC_URL + "/home/home-token-btn.png')" }}>TRADE NOW</Button>
+
+                                    <Link to="/buynow">
+                                        <Button className='col-12 btnmove' style={{ backgroundColor:'#F900C0', fontSize:'16px',  color:'#000000'}} size='lg'> <b>TRADE NOW</b> 
+                                        </Button>
+                                    </Link>  
+{/* 
+                                    <Button size='lg' style={{ border: 0, backgroundImage: "url('" + process.env.PUBLIC_URL + "/home/home-token-btn.png')" }}>TRADE NOW</Button> */}
                                 </Col>
                             </Row>
                         </Container>

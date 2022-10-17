@@ -60,7 +60,9 @@ class SelectPlace extends Component {
                                 EMPORIUM & EMQUARTIER. <br></br>
                                 12/06/2022 - 15/06/2022
                                 </Card.Text>
-                                <b style={{color:'#F900C0' , fontSize:'18px'}}>24,000฿</b> <br></br>
+                                <Link to="/selectplacetime">
+                                        <b style={{color:'#F900C0' , fontSize:'18px'}}>24,000฿</b> <br></br>
+                                    </Link>
                                 
                             </Card.Body>
                             </Card>
@@ -78,7 +80,9 @@ class SelectPlace extends Component {
                                 EMPORIUM & EMQUARTIER. <br></br>
                                 12/06/2022 - 15/06/2022
                                 </Card.Text>
-                                <b style={{color:'#F900C0' , fontSize:'18px'}}>24,000฿</b> <br></br>
+                                <Link to="/selectplacetime">
+                                        <b style={{color:'#F900C0' , fontSize:'18px'}}>24,000฿</b> <br></br>
+                                    </Link>
                                 
                             </Card.Body>
                             </Card>
@@ -100,8 +104,7 @@ class SelectPlace extends Component {
                                     12/06/2022 - 15/06/2022
                                     </Card.Text>
                                     <Link to="/selectplacetime">
-                            
-                                    <b style={{color:'#F900C0' , fontSize:'18px'}}>24,000฿</b> <br></br>
+                                        <b style={{color:'#F900C0' , fontSize:'18px'}}>24,000฿</b> <br></br>
                                     </Link>
                                 </Card.Body>
                             </Card>
@@ -118,7 +121,9 @@ class SelectPlace extends Component {
                                     EMPORIUM & EMQUARTIER. <br></br>
                                     12/06/2022 - 15/06/2022
                                     </Card.Text>
-                                    <b style={{color:'#F900C0' , fontSize:'18px'}}>24,000฿</b> <br></br>
+                                    <Link to="/selectplacetime">
+                                        <b style={{color:'#F900C0' , fontSize:'18px'}}>24,000฿</b> <br></br>
+                                    </Link>
                                     
                                 </Card.Body>
                             </Card>
@@ -137,7 +142,9 @@ class SelectPlace extends Component {
                                     EMPORIUM & EMQUARTIER. <br></br>
                                     12/06/2022 - 15/06/2022
                                     </Card.Text>
-                                    <b style={{color:'#F900C0' , fontSize:'18px'}}>24,000฿</b> <br></br>
+                                    <Link to="/selectplacetime">
+                                        <b style={{color:'#F900C0' , fontSize:'18px'}}>24,000฿</b> <br></br>
+                                    </Link>
                                     
                                 </Card.Body>
                             </Card>
@@ -154,7 +161,9 @@ class SelectPlace extends Component {
                                     EMPORIUM & EMQUARTIER. <br></br>
                                     12/06/2022 - 15/06/2022
                                     </Card.Text>
-                                    <b style={{color:'#F900C0' , fontSize:'18px'}}>24,000฿</b> <br></br>
+                                    <Link to="/selectplacetime">
+                                        <b style={{color:'#F900C0' , fontSize:'18px'}}>24,000฿</b> <br></br>
+                                    </Link>
                                     
                                 </Card.Body>
                             </Card>
@@ -173,7 +182,9 @@ class SelectPlace extends Component {
                                     EMPORIUM & EMQUARTIER. <br></br>
                                     12/06/2022 - 15/06/2022
                                     </Card.Text>
-                                    <b style={{color:'#F900C0' , fontSize:'18px'}}>24,000฿</b> <br></br>
+                                    <Link to="/selectplacetime">
+                                        <b style={{color:'#F900C0' , fontSize:'18px'}}>24,000฿</b> <br></br>
+                                    </Link>
                                     
                                 </Card.Body>
                             </Card>
@@ -190,7 +201,9 @@ class SelectPlace extends Component {
                                     EMPORIUM & EMQUARTIER. <br></br>
                                     12/06/2022 - 15/06/2022
                                     </Card.Text>
-                                    <b style={{color:'#F900C0' , fontSize:'18px'}}>24,000฿</b> <br></br>
+                                    <Link to="/selectplacetime">
+                                        <b style={{color:'#F900C0' , fontSize:'18px'}}>24,000฿</b> <br></br>
+                                    </Link>
                                     
                                 </Card.Body>
                             </Card>

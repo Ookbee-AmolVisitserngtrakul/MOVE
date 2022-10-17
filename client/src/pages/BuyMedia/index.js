@@ -135,11 +135,11 @@ class BuyMedia extends Component {
                 <div className="col-md-12">
                     <select className="form-select mt-3" required defaultValue={0}>
                                                     <option disabled value="0"><i className="bi bi-geo-alt-fill"></i>Location</option>
-                                                    <option value="1">10,000 - 20,000 บาท</option>
-                                                    <option value="2">20,000 - 50,000 บาท</option>
-                                                    <option value="3">50,000 - 80,000 บาท</option>
-                                                    <option value="4">80,000 - 100,000 บาท</option>
-                                                    <option value="5">มากกว่า 100,000 บาท</option>
+                                                    <option value="1">Lorem Ipsum is simply dummy text</option>
+                                                    <option value="2">Lorem Ipsum is simply dummy text</option>
+                                                    <option value="3">Lorem Ipsum is simply dummy text</option>
+                                                    <option value="4">Lorem Ipsum is simply dummy text</option>
+                                                    <option value="5">Lorem Ipsum is simply dummy text</option>
                     </select>                
                 </div>    
                 <br></br>
@@ -165,17 +165,17 @@ class BuyMedia extends Component {
                     <div className='col-6'>
                     <select style={{backgroundColor:'#000000', borderLeft:'none',  fontSize:'12px', borderRight:'none', borderTop:'none',  borderBottom:'none',  color:'white' }} className="form-select " required defaultValue={0}>
                                                     <option disabled value="0">ALL media</option>
-                                                    <option value="1">10,000 - 20,000 บาท</option>
-                                                    <option value="2">20,000 - 50,000 บาท</option>
-                                                    <option value="3">50,000 - 80,000 บาท</option>
+                                                    <option value="1">Lorem Ipsum is simply dummy text</option>
+                                                    <option value="2">Lorem Ipsum is simply dummy text</option>
+                                                    <option value="3">Lorem Ipsum is simply dummy text</option>
                     </select>
                     </div>
                     <div className='col-6'  style={{borderLeft:'solid', borderWidth:'2px',  borderColor:'white', }}>
                     <select style={{backgroundColor:'#000000', borderLeft:'none', fontSize:'12px',  borderRight:'none', borderTop:'none',  borderBottom:'none',  color:'white'}} className="form-select " required defaultValue={0}>
                                                     <option disabled value="0"><i className="bi bi-geo-alt-fill"></i>By price</option>
-                                                    <option value="1">10,000 - 20,000 บาท</option>
-                                                    <option value="2">20,000 - 50,000 บาท</option>
-                                                    <option value="3">50,000 - 80,000 บาท</option>
+                                                    <option value="1">Lorem Ipsum is simply dummy text</option>
+                                                    <option value="2">Lorem Ipsum is simply dummy text</option>
+                                                    <option value="3">Lorem Ipsum is simply dummy text</option>
                                                    
                     </select>
                     </div>
@@ -185,11 +185,11 @@ class BuyMedia extends Component {
                 <div className="col-md-12 ">
                     <select  style={{backgroundColor:'#000000', fontSize:'12px',  borderLeft:'none', borderRight:'none', borderTop:'none',  borderBottom:'none',  color:'white'}} className="form-select mt-3" required defaultValue={0}>
                                                     <option disabled value="0">media Type</option>
-                                                    <option value="1">10,000 - 20,000 บาท</option>
-                                                    <option value="2">20,000 - 50,000 บาท</option>
-                                                    <option value="3">50,000 - 80,000 บาท</option>
-                                                    <option value="4">80,000 - 100,000 บาท</option>
-                                                    <option value="5">มากกว่า 100,000 บาท</option>
+                                                    <option value="1">Lorem Ipsum is simply dummy text</option>
+                                                    <option value="2">Lorem Ipsum is simply dummy text</option>
+                                                    <option value="3">Lorem Ipsum is simply dummy text</option>
+                                                    <option value="4">Lorem Ipsum is simply dummy text</option>
+                                                    <option value="5">Lorem Ipsum is simply dummy text</option>
                     </select>
                   
                 </div>

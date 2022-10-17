@@ -61,8 +61,8 @@ function Sidebar() {
                   <NavDropdown.Item href='/selectsite'>Recently viewed</NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown title='Marketplace'>
-                  <NavDropdown.Item href='/release-to-marketplace-2'>Sell</NavDropdown.Item>
-                  <NavDropdown.Item href='/ads-on-air-1'>My listing</NavDropdown.Item>
+                  <NavDropdown.Item href='/marketplace'>Sell</NavDropdown.Item>
+                  <NavDropdown.Item href='/mymaketplece'>My listing</NavDropdown.Item>
                   <NavDropdown.Item href='/marketplace'>Search market place</NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link href='/#tokenMove'>Move</Nav.Link>

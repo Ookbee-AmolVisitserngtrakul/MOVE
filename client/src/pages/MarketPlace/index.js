@@ -42,11 +42,7 @@ class MarketPlace extends Component {
              
          <Container style={{paddingTop:'1em',backgroundColor:'#000000'}}>    
 
-                        <Link to="/about">
-                <Button variant="outline-light" size="lg">
-                    about
-                </Button>
-                </Link>
+           
 
                 <div className='textsize' >
                 <b style={{color:'#FFFFFF'}}> MARKET<b style={{color:'#F900C0'}}> PLACE</b> </b> 

@@ -238,7 +238,7 @@ class Home extends Component {
                             <Row>
                                 <Col className='d-grid gap-2' style={{ padding: '20px 0 10px' }}>
 
-                                    <Link to="/buynow">
+                                    <Link to="/">
                                         <Button className='col-12 btnmove' style={{ backgroundColor:'#F900C0', fontSize:'16px',  color:'#000000'}} size='lg'> <b>TRADE NOW</b> 
                                         </Button>
                                     </Link>  

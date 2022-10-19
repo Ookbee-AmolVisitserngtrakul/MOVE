@@ -165,7 +165,7 @@ class AddToCart extends Component {
                     
             </Container> 
 
-            <Container fluid style={{padding:0,margin:0 }}>   
+            {/* <Container fluid style={{padding:0,margin:0 }}>   
              
                 
 
@@ -224,7 +224,7 @@ class AddToCart extends Component {
 
              </div>  
                  
-         </Container> 
+         </Container>  */}
 
 
            

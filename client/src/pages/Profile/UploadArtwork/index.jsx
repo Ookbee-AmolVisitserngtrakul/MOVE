@@ -195,7 +195,7 @@ function UploadArtwork(props) {
           <img className="mask-group-8" src="/img/mask-group-2@2x.svg" alt="Mask group" />
           <img className="mask-group-9" src="/img/mask-group-3@2x.svg" alt="Mask group" />
           <img className="mask-group-10" src="/img/mask-group-4@2x.svg" alt="Mask group" />
-          <Group7802 />
+          {/* <Group7802 /> */}
           <img className="arrow-left-line" src="/img/arrow-left-line@2x.svg" alt="arrow-left-line" onClick={backToMyBooking}/>
           <div className="rectangle-2486"></div>
           <div className="upload-time poppins-bold-black-16px">{uploadTime}</div>

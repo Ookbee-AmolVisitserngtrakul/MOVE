@@ -292,13 +292,13 @@ class SelectTime extends Component {
                             <div style={{  marginLeft:'1em',  marginRight:'1em',  fontSize:'24px',}}>
                             <br></br>
                             <Link to="/addtocart">
-                            <Button className='col-12 btnmove mb-2 ' style={{ backgroundColor:'#F900C0', fontSize:'16px',  color:'#000000'}} size='lg'> <b>ADD TO CART</b> 
-                            </Button>
+                                <Button className='col-12 btnmove mb-2 ' style={{ backgroundColor:'#F900C0', fontSize:'16px',  color:'#000000'}} size='lg'> <b>ADD TO CART</b> 
+                                </Button>
                             </Link>
-                            <Button className='col-12 btncancel' style={{  fontSize:'16px',  color:'#FFFFFF'}} size='lg'> <b>CANCEL</b> 
-
-                            </Button>
-          
+                            <Link to="/selectsite">
+                                <Button className='col-12 btncancel' style={{  fontSize:'16px',  color:'#FFFFFF'}} size='lg'> <b>CANCEL</b> 
+                                </Button>
+                            </Link>
 
 
                             </div>
@@ -314,7 +314,7 @@ class SelectTime extends Component {
                     
             </Container> 
 
-            <Container fluid style={{padding:0,margin:0 }}>   
+            {/* <Container fluid style={{padding:0,margin:0 }}>   
              
                 
 
@@ -373,7 +373,7 @@ class SelectTime extends Component {
 
              </div>  
                  
-         </Container> 
+         </Container>  */}
 
 
            

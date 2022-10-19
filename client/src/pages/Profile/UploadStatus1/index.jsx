@@ -145,7 +145,7 @@ function UploadStatus1(props) {
             <span className="poppins-bold-white-24px">{spanText1}</span>
             <span className="poppins-bold-shocking-pink-24px">{spanText2}</span>
           </div>
-          <Group7802 className={group7802Props.className} />
+          {/* <Group7802 className={group7802Props.className} /> */}
         </div>
       </div>
     </div>

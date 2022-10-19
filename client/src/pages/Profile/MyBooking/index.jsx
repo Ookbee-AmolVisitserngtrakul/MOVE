@@ -105,7 +105,7 @@ function MyBooking(props) {
               <span className="poppins-bold-shocking-pink-24px">{spanText2}</span>
             </div>
           </div>
-          <Group7802 className={group7802Props.className} />
+          {/* <Group7802 className={group7802Props.className} /> */}
         </div>
       </div>
     </div>

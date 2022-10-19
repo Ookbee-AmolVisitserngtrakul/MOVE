@@ -48,7 +48,7 @@ function UploadStatus2(props) {
           <img className="mask-group-27" src="/img/mask-group-19@2x.svg" alt="Mask group" />
           <div className="group-7951-4"></div>
           <Group7953 />
-          <Group7802 className={group7802Props.className} />
+          {/* <Group7802 className={group7802Props.className} /> */}
         </div>
       </div>
     </div>

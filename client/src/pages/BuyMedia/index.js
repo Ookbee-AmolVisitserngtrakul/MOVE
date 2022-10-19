@@ -241,19 +241,22 @@ class BuyMedia extends Component {
                         </Link>
                         </div>
                         <div className='col-6 mt-4'>
-                            <Card style={{ width: '10rem' }}>
-                                <Card.Img variant="top" src="/empoium.png" />
-                                <Card.Body>
-                                    <Card.Title style={{color:'black', fontSize:'14px'}}>EMPORIUM</Card.Title>
-                                    <Card.Text style={{color:'black' , fontSize:'9px'}}>
-                                    <BsGeoAltFill></BsGeoAltFill>
-                                    EMPORIUM & EMQUARTIER.
-                                    </Card.Text>
-                                    <b style={{color:'#F900C0' , fontSize:'18px'}}>14,000฿</b>
-                                </Card.Body>
+                            <Link to="/selecttime">
+                                <Card style={{ width: '10rem' }}>
+                                    <Card.Img variant="top" src="/empoium.png" />
+                                    <Card.Body>
+                                        <Card.Title style={{color:'black', fontSize:'14px'}}>EMPORIUM</Card.Title>
+                                        <Card.Text style={{color:'black' , fontSize:'9px'}}>
+                                        <BsGeoAltFill></BsGeoAltFill>
+                                        EMPORIUM & EMQUARTIER.
+                                        </Card.Text>
+                                        <b style={{color:'#F900C0' , fontSize:'18px'}}>14,000฿</b>
+                                    </Card.Body>
                                 </Card>
+                            </Link>
                         </div>
                         <div className='col-6 mt-2 mb-2'>
+                            <Link to="/selecttime">
                                 <Card style={{ width: '10rem' }}>
                                     <Card.Img variant="top" src="/myidol.png" />
                                     <Card.Body>
@@ -265,9 +268,11 @@ class BuyMedia extends Component {
                                         <b style={{color:'#F900C0' , fontSize:'18px'}}>24,000฿</b>
                                         
                                     </Card.Body>
-                                    </Card>
+                                </Card>
+                            </Link>
                         </div>
                         <div className='col-6 mt-2 mb-2'>
+                            <Link to="/selecttime">
                                 <Card style={{ width: '10rem' }}>
                                     <Card.Img variant="top" src="/ilovenft.png" />
                                     <Card.Body>
@@ -279,7 +284,8 @@ class BuyMedia extends Component {
                                         <b style={{color:'#F900C0' , fontSize:'18px'}}>24,000฿</b>
                                         
                                     </Card.Body>
-                                    </Card>
+                                </Card>
+                            </Link>
                         </div>
                     </div>
 
@@ -403,7 +409,7 @@ class BuyMedia extends Component {
                 
                 </Container>
 
-                <div style={{paddingTop:'0em', backgroundColor:'#FFFFFF'}}>
+                {/* <div style={{paddingTop:'0em', backgroundColor:'#FFFFFF'}}>
                 
                         <div  style={{ paddingLeft:'1em', color:'#FFFFFF', backgroundColor:'#1F2432'}}>
 
@@ -454,7 +460,7 @@ class BuyMedia extends Component {
                                     <br></br>           
                         </div>
 
-                </div>  
+                </div>   */}
                     
             </Container> 
 

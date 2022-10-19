@@ -4,6 +4,7 @@ import Frame7827 from "../../../components/Profile/Frame7827";
 import Frame7825 from "../../../components/Profile/Frame7825";
 import Group7802 from "../../../components/Profile/Group7802";
 import "./UploadArtwork2.css";
+import { useNavigate } from "react-router-dom";
 
 function UploadArtwork2(props) {
   const {
@@ -31,6 +32,16 @@ function UploadArtwork2(props) {
     frame7825Props,
     group7802Props,
   } = props;
+
+  const navigate = useNavigate();
+
+  function uploadMediaPage () {
+    navigate("/upload-artwork-1");
+  }
+
+  function profile () {
+    navigate("/profile");
+  }
 
   return (
     <div className="container-center-horizontal">
@@ -69,7 +80,7 @@ function UploadArtwork2(props) {
           <div className="overlap-group2-8">
             <div className="remove-from-marketplace-1 poppins-medium-black-16px">{removeFromMarketplace}</div>
           </div>
-          <div className="overlap-group3-7">
+          <div className="overlap-group3-7" onClick={uploadMediaPage}>
             <div className="upload-media-3 poppins-medium-black-16px">{uploadMedia}</div>
           </div>
           <div className="booking-date-5 poppins-medium-white-10px">{bookingDate2}</div>
@@ -92,8 +103,8 @@ function UploadArtwork2(props) {
             group7834Props={frame7825Props.group7834Props}
             group7833Props={frame7825Props.group7833Props}
           />
-          <img className="arrow-left-line-3" src="/img/arrow-left-line-3@2x.svg" alt="arrow-left-line" />
-          <Group7802 className={group7802Props.className} />
+          <img className="arrow-left-line-3" src="/img/arrow-left-line-3@2x.svg" alt="arrow-left-line" onClick={profile}/>
+          {/* <Group7802 className={group7802Props.className} /> */}
         </div>
       </div>
     </div>

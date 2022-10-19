@@ -107,7 +107,7 @@ function ToUpload(props) {
           <div className="overlap-group3-6">
             <div className="upload-media-2 poppins-medium-black-16px">{uploadMedia2}</div>
           </div>
-          <Group7802 className={group7802Props.className} />
+          {/* <Group7802 className={group7802Props.className} /> */}
         </div>
       </div>
     </div>

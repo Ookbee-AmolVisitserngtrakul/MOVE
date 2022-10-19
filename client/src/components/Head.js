@@ -75,11 +75,11 @@ function Sidebar() {
                   <NavDropdown.Item href='/upload-artwork'>My listing</NavDropdown.Item>
                   <NavDropdown.Item href='/marketplace'>Search market place</NavDropdown.Item>
                 </NavDropdown>
-                <Nav.Link href='/#tokenMove'>Move</Nav.Link>
+                <Nav.Link href='/#tokenMove'>MOVE</Nav.Link>
                 <Nav.Link href='/chat'>Inbox</Nav.Link>
                 <Nav.Link href='/payment'>Connect wallet</Nav.Link>
                 <Nav.Link href='/to-upload'>My media gallery</Nav.Link>
-                <Nav.Link><img src={process.env.PUBLIC_URL + '/header/header-social.png'} width='80px' alt=""/></Nav.Link>
+                {/* <Nav.Link><img src={process.env.PUBLIC_URL + '/header/header-social.png'} width='80px' alt=""/></Nav.Link> */}
               </Nav>
             </Container>
           </Navbar>

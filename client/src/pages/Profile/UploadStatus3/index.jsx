@@ -98,7 +98,7 @@ function UploadStatus3(props) {
             <div className="approved-1 poppins-medium-chateau-green-12px">{approved}</div>
             <Tick className={tickProps.className} />
           </div>
-          <Group7802 className={group7802Props.className} />
+          {/* <Group7802 className={group7802Props.className} /> */}
         </div>
       </div>
     </div>

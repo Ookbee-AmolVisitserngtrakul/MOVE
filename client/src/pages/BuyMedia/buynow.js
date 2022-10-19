@@ -210,7 +210,7 @@ class BuyNow extends Component {
             </Container>
          
 
-            <Container fluid style={{padding:0,margin:0 }}>   
+            {/* <Container fluid style={{padding:0,margin:0 }}>   
              
 
                 <div style={{paddingTop:'0em', backgroundColor:'#FFFFFF'}}>
@@ -266,7 +266,7 @@ class BuyNow extends Component {
 
                 </div>  
                     
-            </Container> 
+            </Container>  */}
 
 
         </Container>

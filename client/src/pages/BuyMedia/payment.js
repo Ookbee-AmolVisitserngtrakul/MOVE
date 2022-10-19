@@ -246,7 +246,7 @@ class PayMent extends Component {
           
             
 
-            <Container fluid style={{padding:0,margin:0 }}>   
+            {/* <Container fluid style={{padding:0,margin:0 }}>   
              
             
              <div style={{paddingTop:'0em', backgroundColor:'#FFFFFF'}}>
@@ -301,7 +301,7 @@ class PayMent extends Component {
 
              </div>  
                  
-         </Container> 
+         </Container>  */}
 
 
            

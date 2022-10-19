@@ -186,7 +186,7 @@ class SelectSite extends Component {
             </Container>
          
 
-            <Container fluid style={{padding:0,margin:0 }}>   
+            {/* <Container fluid style={{padding:0,margin:0 }}>   
              
                 
 
@@ -245,7 +245,7 @@ class SelectSite extends Component {
 
                 </div>  
                     
-            </Container> 
+            </Container>  */}
 
 
         </Container>

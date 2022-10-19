@@ -131,7 +131,7 @@ function ReleaseToMarketplace2(props) {
           <div className="release-to-marketplace-4 poppins-medium-black-16px">{releaseToMarketplace}</div>
           <div className="cancle-3 poppins-medium-white-16px">{cancle}</div>
           <div className="group-7912-3" onClick={myBooking}></div>
-          <Group7802 className={group7802Props.className} />
+          {/* <Group7802 className={group7802Props.className} /> */}
         </div>
       </div>
     </div>

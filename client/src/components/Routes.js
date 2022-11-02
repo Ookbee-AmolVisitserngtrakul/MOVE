@@ -22,9 +22,6 @@ import Media from '../pages/Media'
 import MyMarketPlace from '../pages/Profile/mymaketplece'
 import RemoveMarketPlace from '../pages/Profile/removemaketplece'
 import Chat from "../pages/Profile/Chat";
-//import MyBooking from "../pages/MyBooking";
-//import ReleaseToMarketplace from "../pages/MyBooking/releasemarketplace";
-//import UploadMedia from "../pages/MyBooking/uploadmedia";
 //import NotFoundPage from './pages/NotFoundPage'
 import UploadArtwork from "../pages/Profile/UploadArtwork";
 import Profile from "../pages/Profile/Profile";
@@ -40,58 +37,81 @@ import ReleaseToMarketplaceDialog from "../pages/Profile/ReleaseToMarketplaceDia
 import AdsOnAir2 from "../pages/Profile/AdsOnAir2";
 import ReleaseToMarketplace2 from "../pages/Profile/ReleaseToMarketplace2";
 
+import MyBooking2 from "../pages/MyBooking";
+import ReleaseToMarketplace3 from "../pages/MyBooking/releasemarketplace";
+import UploadMedia2 from "../pages/MyBooking/uploadmedia";
+import ToUpload2 from "../pages/MyBooking/toupload"
+import MyStatus2 from "../pages/MyBooking/mystatus"
+import MyStatusApproved2 from "../pages/MyBooking/mystatus-approved"
+import MyStatusChecking2 from "../pages/MyBooking/mystatus-checking"
+import MyStatusRejected2 from "../pages/MyBooking/mystatus-rejected"
+import AdsDetail from "../pages/MyBooking/ads-detail"
+import AdsOnAir3 from "../pages/MyBooking/ads-onair"
+
 const NotFoundPage = () => { return <h1>Not Found Page</h1> }
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default () => (
     <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/login" element={<Login/>} />
-        <Route path="/register" element={<Register/>} />
-        <Route path="/registermember" element={<RegisterMember/>} />
-        <Route path="/bag" element={<Bag/>} />
-        <Route path="/buymedia" element={<BuyMedia/>} />
-        <Route path="/buynow" element={<BuyNow/>} />
-        <Route path="/selectsite" element={<SelectSite/>} />
-        <Route path="/selecttime" element={<SelectTime/>} />
-        <Route path="/addtocart" element={<AddToCart/>} />
-        <Route path="/payment" element={<PayMent/>} />
-        <Route path="/optconfirm" element={<OptConFirm/>} />
-        <Route path="/optsuscess" element={<OptSuccess/>} />
-        <Route path="/sentgift" element={<SentGift/>} />
-        <Route path="/marketplace" element={<MarketPlace/>} />
-        <Route path="/selectplace" element={<SelectPlace/>} />
-        <Route path="/selectplacetime" element={<SelectPlaceTime/>} />
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/registermember" element={<RegisterMember />} />
+        <Route path="/bag" element={<Bag />} />
+        <Route path="/buymedia" element={<BuyMedia />} />
+        <Route path="/buynow" element={<BuyNow />} />
+        <Route path="/selectsite" element={<SelectSite />} />
+        <Route path="/selecttime" element={<SelectTime />} />
+        <Route path="/addtocart" element={<AddToCart />} />
+        <Route path="/payment" element={<PayMent />} />
+        <Route path="/optconfirm" element={<OptConFirm />} />
+        <Route path="/optsuscess" element={<OptSuccess />} />
+        <Route path="/sentgift" element={<SentGift />} />
+        <Route path="/marketplace" element={<MarketPlace />} />
+        <Route path="/selectplace" element={<SelectPlace />} />
+        <Route path="/selectplacetime" element={<SelectPlaceTime />} />
         {/* <Route path="/ProFile" element={<ProFile/>} /> */}
-        <Route path="/mymaketplece" element={<MyMarketPlace/>} />
-        <Route path="/removemaketplece" element={<RemoveMarketPlace/>} />
-        <Route path="/media/:media" element={<Media/>} />
-        <Route path="/chat" element={<Chat {...chatData}/>}/>
-        <Route path="/upload-artwork-1" element={<UploadArtwork {...uploadArtworkData}/>}/>
-        <Route path="/profile" element={<Profile {...profileData}/>}/>
-        <Route path="/my-booking" element={<MyBooking {...myBookingData}/>}/>
-        <Route path="/release-to-marketplace" element={<ReleaseToMarketplace {...releaseToMarketplaceData}/>}/>
-        <Route path="/to-upload" element={<ToUpload {...toUploadData}/>}/>
-        <Route path="/upload-artwork" element={<UploadArtwork2 {...uploadArtwork2Data}/>}/>
-        <Route path="/upload-status-1" element={<UploadStatus1 {...uploadStatus1Data}/>}/>
-        <Route path="/ads-on-air-1" element={<AdsOnAir1 {...adsOnAir1Data}/>}/>
-        <Route path="/upload-status-2" element={<UploadStatus2 {...uploadStatus2Data}/>}/>
-        <Route path="/upload-status-3" element={<UploadStatus3 {...uploadStatus3Data}/>}/>
-        <Route path="/release-to-marketplace-dialog" element={<ReleaseToMarketplaceDialog {...releaseToMarketplaceDialogData}/>}/>
-        <Route path="/release-to-marketplace-2" element={<ReleaseToMarketplace2 {...releaseToMarketplace2Data}/>}/>
-        <Route path="/ads-on-air-2" element={<AdsOnAir2 moveCom="move.com" 
+        <Route path="/mymaketplece" element={<MyMarketPlace />} />
+        <Route path="/removemaketplece" element={<RemoveMarketPlace />} />
+        <Route path="/media/:media" element={<Media />} />
+        <Route path="/chat" element={<Chat {...chatData} />} />
+        <Route path="/upload-artwork-1" element={<UploadArtwork {...uploadArtworkData} />} />
+        <Route path="/profile" element={<Profile {...profileData} />} />
+        <Route path="/my-booking" element={<MyBooking {...myBookingData} />} />
+        <Route path="/release-to-marketplace" element={<ReleaseToMarketplace {...releaseToMarketplaceData} />} />
+        <Route path="/to-upload" element={<ToUpload {...toUploadData} />} />
+        <Route path="/upload-artwork" element={<UploadArtwork2 {...uploadArtwork2Data} />} />
+        <Route path="/upload-status-1" element={<UploadStatus1 {...uploadStatus1Data} />} />
+        <Route path="/ads-on-air-1" element={<AdsOnAir1 {...adsOnAir1Data} />} />
+        <Route path="/upload-status-2" element={<UploadStatus2 {...uploadStatus2Data} />} />
+        <Route path="/upload-status-3" element={<UploadStatus3 {...uploadStatus3Data} />} />
+        <Route path="/release-to-marketplace-dialog" element={<ReleaseToMarketplaceDialog {...releaseToMarketplaceDialogData} />} />
+        <Route path="/release-to-marketplace-2" element={<ReleaseToMarketplace2 {...releaseToMarketplace2Data} />} />
+        
+        <Route path="/my-booking2" element={<MyBooking2 />} />
+        <Route path="/release-to-marketplace-3" element={<ReleaseToMarketplace3 />} />
+        <Route path="/upload-media2" element={<UploadMedia2 />} />
+        <Route path="/to-upload2" element={<ToUpload2 />} />
+        <Route path="/my-status2" element={<MyStatus2 />} />
+        <Route path="/my-status2-approved" element={<MyStatusApproved2 />} />
+        <Route path="/my-status2-checking" element={<MyStatusChecking2 />} />
+        <Route path="/my-status2-rejected" element={<MyStatusRejected2 />} />
+        <Route path="/ads-detail" element={<AdsDetail />} />
+        <Route path="/ads-onair3" element={<AdsOnAir3 />} />
+
+        <Route path="/ads-on-air-2" element={<AdsOnAir2 moveCom="move.com"
             parcParagonThe9={
-              <React.Fragment>
-                PARC PARAGON + THE 90 <br />
-                DEGREE &amp; INTERCHANGE 21
-              </React.Fragment>
+                <React.Fragment>
+                    PARC PARAGON + THE 90 <br />
+                    DEGREE &amp; INTERCHANGE 21
+                </React.Fragment>
             }
             addressChaturathit="Address: Chaturathit Rd, Bang Kapi, Huai Khwang, Bangkok"
             text14="30-08-2022 12:00"
             preview="PREVIEW"
             onair="Onair"
-            group7842Props={adsOnAir2Data.group7842Props}/>}/>
-        <Route path="*" element={<NotFoundPage/>} />
+            group7842Props={adsOnAir2Data.group7842Props} />} />
+        <Route path="*" element={<NotFoundPage />} />
     </Routes>
 )
 

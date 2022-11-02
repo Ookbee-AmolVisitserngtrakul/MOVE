@@ -198,6 +198,7 @@
 .navbar-nav .dropdown-menu .dropdown-item {
   color: white !important;
 }
+
 .navbar-nav .dropdown-menu .dropdown-item:hover {
   background-color: black !important;
 }
@@ -274,4 +275,27 @@
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.btn-status {
+  background-color: white !important;
+  font-size: 12px !important;
+  padding: 5px !important;
+  border: 0 !important;
+}
+
+.btn-status-Approved {
+  color: #33A762 !important;
+}
+
+.btn-status-Rejected {
+  color: #E13F3F !important;
+}
+
+.btn-status-Checking {
+  color: #F3B000 !important;
+}
+
+.btn-status-adsonair{
+  color: #1B4EB1 !important;
 }

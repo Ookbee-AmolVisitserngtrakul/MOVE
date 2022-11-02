@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../../App.css';
-import { Button, Container, Row, Col, Carousel } from 'react-bootstrap';
+import { Button, Container, Row, Col } from 'react-bootstrap';
 
 
 class MyBooking extends Component {

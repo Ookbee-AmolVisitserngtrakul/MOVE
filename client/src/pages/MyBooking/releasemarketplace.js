@@ -10,7 +10,7 @@ class ReleaseMarketPlace2 extends Component {
 
     render() {
         return (
-            <Container style={{ color: 'white', backgroundImage: "url('" + process.env.PUBLIC_URL + "/mybooking/release-market-bg.png')" }}>
+            <Container style={{ padding: 0, color: 'white', backgroundImage: "url('" + process.env.PUBLIC_URL + "/mybooking/release-market-bg.png')" }}>
                 <Row>
                     <Col style={{ paddingTop: '40px' }}>
                         <Container>

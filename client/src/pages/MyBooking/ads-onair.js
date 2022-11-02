@@ -69,7 +69,6 @@ function StatusFrame({ location, book_date, upload_date, status }) {
             <Row>
                 <Col xs={4}>Status</Col>
                 <Col>
-                    {/* <Button className="btn-status-(status)" variant={(status) == 'Approved' ? 'outline-success' : ((status) == 'Checking' ? 'outline-warning' : 'outline-danger')} style={{ backgroundColor: 'white', border: 0, fontSize: '12px', padding: '5px' }}> */}
                     <Button className='btn-status btn-status-adsonair' >
                         <img src={process.env.PUBLIC_URL + '/mybooking/ads-btn-onair.png'} width='13px' style={{ borderRadius: '50px' }} /> {status}
                     </Button>
